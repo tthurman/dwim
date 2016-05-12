@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.marnanel.dwim</groupId>
     <artifactId>dwim</artifactId>
-    <version>1.0</version>
+    <version>0.01</version>
     <packaging>apk</packaging>
     <name>Dwim</name>
     <description>Android client for Dreamwidth</description>
