@@ -2,7 +2,7 @@ package org.marnanel.dwim;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.webkit.WebView;
 
 public class MainActivity extends Activity {
 
@@ -11,5 +11,8 @@ public class MainActivity extends Activity {
 
     WebView webView = new WebView(this);
     setContentView(webView);
+
+    webView.loadUrl("file:///android_assets/html/timeline.html");
+
   }
 }
