@@ -8,8 +8,8 @@ public class MainActivity extends Activity {
 
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    TextView textView = new TextView(this);
-    textView.setText("This is dwim");
-    setContentView(textView);
+
+    WebView webView = new WebView(this);
+    setContentView(webView);
   }
 }
