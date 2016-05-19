@@ -1,2 +1,11 @@
 old/
 target/
+build/
+.gradle/
+gradle/
+build.gradle
+gradlew
+gradlew.bat
+*.swp
+*.swo
+
