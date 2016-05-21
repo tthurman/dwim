@@ -1,5 +1,8 @@
+
 buildscript {
+   
     repositories {
+	mavenCentral()
         jcenter()
     }
 
@@ -9,6 +12,15 @@ buildscript {
 }
 
 apply plugin: 'com.android.application'
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.9.2'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
 
 android {
     compileSdkVersion 22
