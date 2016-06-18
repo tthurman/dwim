@@ -1,0 +1,242 @@
+<wrangler-test>
+<source>
+<![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="home" title="Home" href="http://www.dreamwidth.org/" />
+<link rel="contents" title="Site Map" href="http://www.dreamwidth.org/site/" />
+<link rel="help" title="Technical Support" href="http://www.dreamwidth.org/support/" /><style>
+    #Comments q { padding-left: 2.5em; font-style: italic; }
+</style><title>Tags</title>
+
+            <script type="text/javascript">
+                var Site;
+                if (!Site)
+                    Site = {};
+
+                var site_p = {"currentJournalBase": "http://marnanel.dreamwidth.org",
+"siteroot": "http://www.dreamwidth.org",
+"esn_async": 1,
+"inbox_update_poll": 1,
+"user_domain": "dreamwidth.org",
+"has_remote": 0,
+"media_embed_enabled": 1,
+"currentJournal": "marnanel",
+"imgprefix": "http://s.dreamwidth.org/img",
+"ctx_popup_icons": 1,
+"ctx_popup_userhead": 1,
+"iconprefix": "http://v.dreamwidth.org",
+"statprefix": "http://s.dreamwidth.org/stc",
+"ctx_popup": 1};
+                var site_k = ["currentJournalBase", "siteroot", "esn_async", "inbox_update_poll", "user_domain", "has_remote", "media_embed_enabled", "currentJournal", "imgprefix", "ctx_popup_icons", "ctx_popup_userhead", "iconprefix", "statprefix", "ctx_popup"];
+                for (var i = 0; site_k.length > i; i++) {
+                    Site[site_k[i]] = site_p[site_k[i]];
+                }
+           </script>
+        <link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??lj_base.css,esn.css,jquery/jquery.ui.core.css,jquery/jquery.ui.tooltip.css,jquery.contextualhover.css,lj_base-app.css,base-colors-light.css,lynx/lynx.css?v=1448242038" />
+<link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??jquery/jquery.ui.button.css,jquery/jquery.ui.dialog.css,jquery/jquery.ui.theme.smoothness.css,siteviews/layout.css,siteviews/lynx.css?v=1370663384" />
+<script type="text/javascript" src="//s.dreamwidth.org/js/??jquery/jquery-1.8.3.js,dw/dw-core.js,jquery/jquery.ui.core.js,jquery/jquery.ui.widget.js,jquery/jquery.ui.tooltip.js,jquery.ajaxtip.js,jquery/jquery.ui.position.js,jquery.hoverIntent.js,jquery.contextualhover.js?v=1440903277"></script>
+<script type="text/javascript" src="//s.dreamwidth.org/js/??jquery/jquery.ui.button.js,jquery/jquery.ui.dialog.js,jquery.poll.js,journals/jquery.tag-nav.js,jquery.mediaplaceholder.js?v=1435291818"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="http://marnanel.dreamwidth.org/data/foaf" />
+<link rel="help" href="http://www.dreamwidth.org/support/faq" />
+<link rel="apple-touch-icon" href="//www.dreamwidth.org/apple-touch-icon.png" />
+<link rel="openid.server" href="http://www.dreamwidth.org/openid/server" />
+<meta http-equiv="X-XRDS-Location" content="http://marnanel.dreamwidth.org/data/yadis" />
+
+</head>
+
+<body >
+
+<div role="main" id="content">
+    <div class="row">
+        <div class="columns large-12">
+        <h1></h1>
+        </div>
+    </div>
+
+
+    <div class="row"><div class="large-12 columns"><div class='tags-container'>
+<div class="inner">
+<div class="header">
+<div class="inner">
+<h2>Visible Tags</h2></div>
+</div>
+<div class="contents">
+<div class="inner">
+
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/amlin">amlin</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/avvy">avvy</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/bible">bible</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/bonka">bonka</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/books">books</a> [28]
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/books:borrowable">borrowable</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/books:espoo">espoo</a> [2]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/cambridge">cambridge</a> [13]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/care+and+feeding+of+marnanel">care and feeding of marnanel</a> [1]</li>
+<li class="visibility-public " ><span class="non-link-tag">cats</span>
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/cats:cassatt">cassatt</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/cats:o%27keeffe">o&#39;keeffe</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/cats:rothko">rothko</a> [2]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/choir">choir</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/church">church</a> [14]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code">code</a> [14]
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code:avalot">avalot</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code:fury">fury</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code:gnusto">gnusto</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code:maemo">maemo</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code:meego">meego</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/code:metacity">metacity</a> [1]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/coding">coding</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/d%26d">d&amp;d</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/day">day</a> [27]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/december+days">december days</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/dentist">dentist</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/depression">depression</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/dorothy">dorothy</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/dreams">dreams</a> [8]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/dwim">dwim</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/ethics">ethics</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/exim">exim</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/filk">filk</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/finland">finland</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/firinel">firinel</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.amyandjohn">folk.amyandjohn</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.dimethirwen">folk.dimethirwen</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.firinel">folk.firinel</a> [6]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.marnanel">folk.marnanel</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.plexq">folk.plexq</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.riordon">folk.riordon</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk.tajasel">folk.tajasel</a> [2]</li>
+<li class="visibility-public " ><span class="non-link-tag">folk</span>
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:amyandjohn">amyandjohn</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:benet">benet</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:bob">bob</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:dimethirwen">dimethirwen</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:eric-and-diana">eric-and-diana</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:fin">fin</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:firinel">firinel</a> [7]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:ghoti">ghoti</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:jon">jon</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:joy">joy</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:judith">judith</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:kit">kit</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:millie">millie</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:nono">nono</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:plexq">plexq</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:reg">reg</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:rio">rio</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/folk:riordon">riordon</a> [13]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/gentle+readers">gentle readers</a> [34]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/gnome">gnome</a> [13]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/gnome.metacity">gnome.metacity</a> [8]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/gopher">gopher</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/gran+canaria">gran canaria</a> [8]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/groggs">groggs</a> [7]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/guadec">guadec</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/heraldry">heraldry</a> [4]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/history">history</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/howto">howto</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/hymn">hymn</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/interactive+fiction">interactive fiction</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/iww">iww</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/joule">joule</a> [12]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/katie">katie</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/king+arthur">king arthur</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/language">language</a> [4]
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/language:latin">latin</a> [2]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/latin">latin</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/links">links</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/maemo">maemo</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/marn+reads">marn reads</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/me.history">me.history</a> [5]</li>
+<li class="visibility-public " ><span class="non-link-tag">me</span>
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/me:history">history</a> [3]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/meme">meme</a> [16]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/meme.top5">meme.top5</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/meta">meta</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/music">music</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/n900">n900</a> [13]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/nargery">nargery</a> [4]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/nimyad">nimyad</a> [7]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/other+people%27s+poetry">other people&#39;s poetry</a> [39]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/pccu">pccu</a> [19]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/perl">perl</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/pgo">pgo</a> [72]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/pics">pics</a> [1]</li>
+<li class="visibility-public " ><span class="non-link-tag">places</span>
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/places:cambridge">cambridge</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/places:dublin">dublin</a> [7]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/places:durham">durham</a> [1]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/plexq">plexq</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/plover">plover</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/pmo">pmo</a> [14]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry">poetry</a> [45]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry.sonnet">poetry.sonnet</a> [5]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry.triolet">poetry.triolet</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry.villanelle">poetry.villanelle</a> [1]</li>
+<li class="visibility-public " ><span class="non-link-tag">poetry</span>
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry:ballade">ballade</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry:double-dactyl">double-dactyl</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry:sonnet">sonnet</a> [17]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry:triolets">triolets</a> [6]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/poetry:villanelle">villanelle</a> [2]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/politics">politics</a> [20]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/psa">psa</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/psoriasis">psoriasis</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/python">python</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/rant">rant</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/rfk">rfk</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/ringing">ringing</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/riordon">riordon</a> [5]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/robotfindskitten">robotfindskitten</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/rothko">rothko</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/sex">sex</a> [6]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/shavian">shavian</a> [29]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/sita">sita</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/snowplains">snowplains</a> [1]</li>
+<li class="visibility-public " ><span class="non-link-tag">software</span>
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/software:xzibit">xzibit</a> [1]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/spiders">spiders</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/steno">steno</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/story">story</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/the+ghost+in+the+crown">the ghost in the crown</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/the+staff+hrothgar">the staff hrothgar</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/time+blew+away+like+dandelion+seed">time blew away like dandelion seed</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/transcript">transcript</a> [4]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/welsh">welsh</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/wikipedia">wikipedia</a> [3]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/words">words</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/work">work</a> [4]
+<ul class="ljtaglist tags_multilevel" ><li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/work:collabora">collabora</a> [27]</li></ul></li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/xf">xf</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/xugglybug">xugglybug</a> [1]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/yarrow">yarrow</a> [2]</li>
+<li class="visibility-public " ><a rel="tag" href="http://marnanel.dreamwidth.org/tag/%C2%B7%F0%90%91%96%F0%90%91%B1%F0%90%91%9D%F0%90%91%BE%F0%90%91%AF">·𐑖𐑱𐑝𐑾𐑯</a> [1]</li></ul></div>
+</div>
+<div class="footer">
+<div class="inner">
+</div>
+</div>
+</div>
+</div>
+    </div></div>
+</div>
+
+<hr />
+<div class="row"><div class="large-12 columns">
+    <div role="navigation"><p>[ <a href='http://www.dreamwidth.org/'>Home</a> | <a href='http://www.dreamwidth.org/update'>Post Entry</a> |
+    <a href='http://www.dreamwidth.org/login'>Log in</a> | 
+    <a href='http://www.dreamwidth.org/tools/search'>Search</a> | 
+    <a href='http://www.dreamwidth.org/manage/settings/'>Browse Options</a> | 
+    <a href='http://www.dreamwidth.org/site/'>Site Map</a> ]</p></div>
+    <div id='statistics' style='text-align: left; font-size:0; line-height:0; height:0; overflow:hidden;'></div></div></div>
+</body>
+</html>
+]]></source>
+<expect><![CDATA[
+...
+]]></expect>
+</wrangler-test>

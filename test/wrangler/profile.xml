@@ -1,0 +1,286 @@
+<wrangler-test>
+<source>
+<![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="home" title="Home" href="http://www.dreamwidth.org/" />
+<link rel="contents" title="Site Map" href="http://www.dreamwidth.org/site/" />
+<link rel="help" title="Technical Support" href="http://www.dreamwidth.org/support/" /><style>
+    #Comments q { padding-left: 2.5em; font-style: italic; }
+</style><title>marnanel - Profile</title>
+
+            <script type="text/javascript">
+                var Site;
+                if (!Site)
+                    Site = {};
+
+                var site_p = {"currentJournal": "marnanel",
+"imgprefix": "http://s.dreamwidth.org/img",
+"media_embed_enabled": 1,
+"ctx_popup_icons": 1,
+"inbox_update_poll": 1,
+"has_remote": 0,
+"iconprefix": "http://v.dreamwidth.org",
+"esn_async": 1,
+"user_domain": "dreamwidth.org",
+"siteroot": "http://www.dreamwidth.org",
+"ctx_popup": 1,
+"ctx_popup_userhead": 1,
+"currentJournalBase": "http://marnanel.dreamwidth.org",
+"statprefix": "http://s.dreamwidth.org/stc"};
+                var site_k = ["currentJournal", "imgprefix", "media_embed_enabled", "ctx_popup_icons", "inbox_update_poll", "has_remote", "iconprefix", "esn_async", "user_domain", "siteroot", "ctx_popup", "ctx_popup_userhead", "currentJournalBase", "statprefix"];
+                for (var i = 0; site_k.length > i; i++) {
+                    Site[site_k[i]] = site_p[site_k[i]];
+                }
+           </script>
+        <link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??profile.css?v=1348362434" />
+<link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??lj_base.css,esn.css,contextualhover.css,jquery/jquery.ui.theme.smoothness.css,lj_base-app.css,base-colors-light.css,lynx/lynx.css?v=1448242038" />
+<script type="text/javascript" src="//s.dreamwidth.org/js/??6alib/core.js,6alib/dom.js,6alib/httpreq.js,livejournal.js,esn.js,6alib/ippu.js,lj_ippu.js,6alib/hourglass.js,contextualhover.js?v=1440903277"></script>
+<script type="text/javascript" src="//s.dreamwidth.org/js/??profile.js?v=1348362434"></script>
+
+
+
+</head>
+
+<body >
+
+<div role="main" id="content">
+    <div class="row">
+        <div class="columns large-12">
+        <h1>Profile</h1>
+        </div>
+    </div>
+
+
+    <div class="row"><div class="large-12 columns"> <div id='profile_page'><div id='profile_top'>  <div class='username'> <span lj:user='marnanel' style='white-space: nowrap;' class='ljuser'><a href='http://marnanel.dreamwidth.org/profile'><img src='http://s.dreamwidth.org/img/silk/identity/user.png' alt='[personal profile] ' width='17' height='17' style='vertical-align: text-bottom; border: 0; padding-right: 1px;' /></a><a href='http://marnanel.dreamwidth.org/'><b>marnanel</b></a></span> </div>  <div class='actions'><ul> 
+                <li class="profile_addtrust_disabled disabled" title="You must be logged in to grant access to this account">
+                    <img src="http://s.dreamwidth.org/img/silk/profile/access_grant_disabled.png" width="20" height="18" alt="" />Grant Access
+                </li>
+            
+                <li class="profile_addsub_person_disabled disabled" title="You must be logged in to subscribe to this account">
+                    <img src="http://s.dreamwidth.org/img/silk/profile/subscription_add_disabled.png" width="20" height="18" alt="" />Subscribe
+                </li>
+            
+                <li class="profile_trackuser_disabled disabled" title="You must be logged in to manage notifications">
+                    <img src="http://s.dreamwidth.org/img/silk/profile/track_disabled.png" width="20" height="18" alt="" />Track Account
+                </li>
+            
+                <li class="profile_sendmessage_disabled disabled" title="You must be logged in to send a private message to this account">
+                    <img src="http://s.dreamwidth.org/img/silk/profile/message_disabled.png" width="20" height="18" alt="" />Private Message
+                </li>
+            
+                <li class="profile_buyaccount" title="Purchase paid time as a gift for this user">
+                    <a href="http://www.dreamwidth.org/shop/account?for=gift&user=marnanel">
+                        <img src="http://s.dreamwidth.org/img/silk/profile/buy_account.png" width="20" height="18" alt="" />Gift Paid Account
+                    </a>
+                </li>
+             </ul></div> <div class='user_details'><div class='userpicdiv'><a href='http://marnanel.dreamwidth.org/icons'><img src="http://v.dreamwidth.org/54361/470" width="100" height="100" alt="marnanel: (party hat)" title="marnanel: party hat" class="userpic-img" /></a></div><div class='user_details_inner'>
+        <div class="details_journal">
+            <p class="journal_title">marnanel's Journal</p>
+            <p class="journal_subtitle"></p>
+        </div>
+     <div class='details_stats detail'> <p>Free Account</p><p>Created on 2009-03-10 00:37:26 (#470), last updated 2016-06-04 (1 week ago)</p><p>1,804 comments received, 300 comments posted</p> <p> 1,440 <a href="http://marnanel.dreamwidth.org">Journal Entries</a>, 190 <a href="http://marnanel.dreamwidth.org/tag/">Tags</a>, 0 <a href='http://www.dreamwidth.org/tools/memories?user=marnanel'>Memories</a>, 3 <a href='http://marnanel.dreamwidth.org/icons'>Icons</a></p><p><a href='http://marnanel.dreamwidth.org/profile'>View default profile</a> </p></div></div></div></div> 
+            <div class='ljclear'></div>
+            <div class='section'>
+                
+            <span class='expandcollapse on' id='basics_header'>
+                <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="basics_arrow" />
+                 <a name='basics'>About</a>
+            </span>
+        
+                
+            </div>
+            <div class='section_body' id='basics_body'>
+                 <div class="profile"><table summary=''><tr><th> Name:</th><td>Monument</td></tr><tr><th>Birthdate:</th><td>Jan 30</td></tr><tr><th></th><td></td></tr><tr><th></th><td> </td></tr></table></div> 
+            </div>
+        
+            <div class='ljclear'></div>
+            <div class='section'>
+                
+            <span class='expandcollapse on' id='connect_header'>
+                <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' id="connect_arrow" align="absmiddle" />
+                 <a name='connect'>Connect</a>
+            </span>
+        
+                
+            </div>
+            <div class='section_body' id='connect_body'>
+                
+            <p class='inner_section_header first'>
+                <a name='interests'>Interests (3):</a>
+                
+            </p>
+            <div class='inner_section_body'>being a compsci, <a href="http://www.dreamwidth.org/interests?int=coding">coding</a>, <a href="http://www.dreamwidth.org/interests?int=sleeping">sleeping</a></div>
+        
+            </div>
+        
+            <div class='ljclear'></div>
+            <div class='section'>
+                <img src='http://s.dreamwidth.org/img/silk/identity/user.png' alt='' /> People
+                <span class="section_link">[<a href="http://marnanel.dreamwidth.org/read?show=P">View Entries</a>]</span>
+            </div>
+            <div class='section_body' id='people_body'>
+                
+            <p class='inner_section_header first'>
+                
+                <span class='expandcollapse on' id='mutually_trusted_people_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="mutually_trusted_people_arrow" />
+                    <a name='mutually_trusted'>Mutual Access (56):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='mutually_trusted_people_body'><a href="http://0jack.dreamwidth.org/profile">0jack</a>, <a href="http://alextiefling.dreamwidth.org/profile">alextiefling</a>, <a href="http://angelofthenorth.dreamwidth.org/profile">angelofthenorth</a>, <a href="http://arkady.dreamwidth.org/profile">arkady</a>, <a href="http://artsyhonker.dreamwidth.org/profile">artsyhonker</a>, <a href="http://azurelunatic.dreamwidth.org/profile">azurelunatic</a>, <a href="http://baerana.dreamwidth.org/profile">baerana</a>, <a href="http://baratron.dreamwidth.org/profile">baratron</a>, <a href="http://benjaminlee.dreamwidth.org/profile">benjaminlee</a>, <a href="http://brainwane.dreamwidth.org/profile">brainwane</a>, <a href="http://crazyscot.dreamwidth.org/profile">crazyscot</a>, <a href="http://danni.dreamwidth.org/profile">danni</a>, <a href="http://desh.dreamwidth.org/profile">desh</a>, <a href="http://dglenn.dreamwidth.org/profile">dglenn</a>, <a href="http://diachrony.dreamwidth.org/profile">diachrony</a>, <a href="http://emperor.dreamwidth.org/profile">emperor</a>, <a href="http://ewt.dreamwidth.org/profile">ewt</a>, <a href="http://familyvalues.dreamwidth.org/profile">familyvalues</a>, <a href="http://flexibeast.dreamwidth.org/profile">flexibeast</a>, <a href="http://freckles42.dreamwidth.org/profile">freckles42</a>, <a href="http://gizmometer.dreamwidth.org/profile">gizmometer</a>, <a href="http://gwenynen.dreamwidth.org/profile">gwenynen</a>, <a href="http://hairyears.dreamwidth.org/profile">hairyears</a>, <a href="http://hitchhiker.dreamwidth.org/profile">hitchhiker</a>, <a href="http://ivymcallister.dreamwidth.org/profile">ivymcallister</a>, <a href="http://jack.dreamwidth.org/profile">jack</a>, <a href="http://justkimu.dreamwidth.org/profile">justkimu</a>, <a href="http://kaberett.dreamwidth.org/profile">kaberett</a>, <a href="http://lithiana.dreamwidth.org/profile">lithiana</a>, <a href="http://mirabehn.dreamwidth.org/profile">mirabehn</a>, <a href="http://mirrorshard.dreamwidth.org/profile">mirrorshard</a>, <a href="http://morwen.dreamwidth.org/profile">morwen</a>, <a href="http://naath.dreamwidth.org/profile">naath</a>, <a href="http://nethilia.dreamwidth.org/profile">nethilia</a>, <a href="http://nou.dreamwidth.org/profile">nou</a>, <a href="http://ofearthandstars.dreamwidth.org/profile">ofearthandstars</a>, <a href="http://outofwater.dreamwidth.org/profile">outofwater</a>, <a href="http://planetxanna.dreamwidth.org/profile">planetxanna</a>, <a href="http://pne.dreamwidth.org/profile">pne</a>, <a href="http://pseudomonas.dreamwidth.org/profile">pseudomonas</a>, <a href="http://reddragdiva.dreamwidth.org/profile">reddragdiva</a>, <a href="http://rowan.dreamwidth.org/profile">rowan</a>, <a href="http://www.dreamwidth.org/profile?userid=9529&t=I">rysmiel.livejournal.com</a>, <a href="http://safekeeper.dreamwidth.org/profile">safekeeper</a>, <a href="http://sashajwolf.dreamwidth.org/profile">sashajwolf</a>, <a href="http://sath.dreamwidth.org/profile">sath</a>, <a href="http://sparrowsion.dreamwidth.org/profile">sparrowsion</a>, <a href="http://tfcocs.dreamwidth.org/profile">tfcocs</a>, <a href="http://thomasthurman.dreamwidth.org/profile">thomasthurman</a>, <a href="http://treeowl.dreamwidth.org/profile">treeowl</a>, <a href="http://trochee.dreamwidth.org/profile">trochee</a>, <a href="http://www.dreamwidth.org/profile?userid=237&t=I">weds.livejournal.com</a>, <a href="http://wildeabandon.dreamwidth.org/profile">wildeabandon</a>, <a href="http://wolfieboy.dreamwidth.org/profile">wolfieboy</a>, <a href="http://wordweaverlynn.dreamwidth.org/profile">wordweaverlynn</a>, <a href="http://zeldajean.dreamwidth.org/profile">zeldajean</a></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='not_mutually_trusted_people_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="not_mutually_trusted_people_arrow" />
+                    <a name='not_mutually_trusted'>Also Gives Access To (25):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='not_mutually_trusted_people_body'><strike><a href="http://auntysarah.dreamwidth.org/profile">auntysarah</a></strike>, <a href="http://bohemianmoon.dreamwidth.org/profile">bohemianmoon</a>, <a href="http://chess.dreamwidth.org/profile">chess</a>, <a href="http://elynne.dreamwidth.org/profile">elynne</a>, <strike><a href="http://ex-beautyofgr925.dreamwidth.org/profile">ex_beautyofgr925</a></strike>, <a href="http://forthwritten.dreamwidth.org/profile">forthwritten</a>, <a href="http://gallinggalla.dreamwidth.org/profile">gallinggalla</a>, <a href="http://highlyeccentric.dreamwidth.org/profile">highlyeccentric</a>, <a href="http://jacktellslies.dreamwidth.org/profile">jacktellslies</a>, <a href="http://jld.dreamwidth.org/profile">jld</a>, <a href="http://kindjourneys.dreamwidth.org/profile">kindjourneys</a>, <strike><a href="http://madelienegrey.dreamwidth.org/profile">madelienegrey</a></strike>, <a href="http://manylegs.dreamwidth.org/profile">manylegs</a>, <a href="http://nanaya.dreamwidth.org/profile">nanaya</a>, <a href="http://piranha.dreamwidth.org/profile">piranha</a>, <a href="http://rho.dreamwidth.org/profile">rho</a>, <a href="http://rosefox.dreamwidth.org/profile">rosefox</a>, <a href="http://simont.dreamwidth.org/profile">simont</a>, <a href="http://tajasel.dreamwidth.org/profile">tajasel</a>, <a href="http://tria.dreamwidth.org/profile">tria</a>, <a href="http://turkeyplucker.dreamwidth.org/profile">turkeyplucker</a><div class='openid-users-block'><img src="http://s.dreamwidth.org/img/silk/identity/openid.png" width="16" height="16" alt="OpenID" title="OpenID" border='0' />[livejournal.com] <a href="http://www.dreamwidth.org/profile?userid=8416&t=I">ghoti</a>, <a href="http://www.dreamwidth.org/profile?userid=69408&t=I">lnr</a>, <a href="http://www.dreamwidth.org/profile?userid=9020&t=I">nou</a></div><div class='openid-users-block'><img src="http://s.dreamwidth.org/img/silk/identity/openid.png" width="16" height="16" alt="OpenID" title="OpenID" border='0' />[lotuslandfineart.com] <a href="http://www.dreamwidth.org/profile?userid=817751&t=I">velvetrope</a></div></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='not_mutually_trusted_by_people_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' id="not_mutually_trusted_by_people_arrow" align="absmiddle" />
+                    <a name='not_mutually_trusted_by'>Also Has Access From (8):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='not_mutually_trusted_by_people_body'><a href="http://andrewducker.dreamwidth.org/profile">andrewducker</a>, <a href="http://balberith.dreamwidth.org/profile">balberith</a>, <a href="http://hatter.dreamwidth.org/profile">hatter</a>, <a href="http://holzman-tweed.dreamwidth.org/profile">holzman_tweed</a>, <a href="http://joedecker.dreamwidth.org/profile">joedecker</a>, <a href="http://kake.dreamwidth.org/profile">kake</a>, <a href="http://phlebas.dreamwidth.org/profile">phlebas</a>, <a href="http://riordon.dreamwidth.org/profile">riordon</a></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='mutually_watched_people_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' id="mutually_watched_people_arrow" align="absmiddle" />
+                    <a name='mutually_watched'>Mutual Subscriptions (63):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='mutually_watched_people_body'><a href="http://0jack.dreamwidth.org/profile">0jack</a>, <a href="http://alextiefling.dreamwidth.org/profile">alextiefling</a>, <a href="http://angelofthenorth.dreamwidth.org/profile">angelofthenorth</a>, <a href="http://arkady.dreamwidth.org/profile">arkady</a>, <a href="http://artsyhonker.dreamwidth.org/profile">artsyhonker</a>, <a href="http://azurelunatic.dreamwidth.org/profile">azurelunatic</a>, <a href="http://baerana.dreamwidth.org/profile">baerana</a>, <a href="http://baratron.dreamwidth.org/profile">baratron</a>, <a href="http://benjaminlee.dreamwidth.org/profile">benjaminlee</a>, <a href="http://bohemianmoon.dreamwidth.org/profile">bohemianmoon</a>, <a href="http://brainwane.dreamwidth.org/profile">brainwane</a>, <a href="http://crazyscot.dreamwidth.org/profile">crazyscot</a>, <a href="http://danni.dreamwidth.org/profile">danni</a>, <a href="http://desh.dreamwidth.org/profile">desh</a>, <a href="http://dglenn.dreamwidth.org/profile">dglenn</a>, <a href="http://diachrony.dreamwidth.org/profile">diachrony</a>, <a href="http://emperor.dreamwidth.org/profile">emperor</a>, <a href="http://ewt.dreamwidth.org/profile">ewt</a>, <a href="http://flexibeast.dreamwidth.org/profile">flexibeast</a>, <a href="http://freckles42.dreamwidth.org/profile">freckles42</a>, <a href="http://gizmometer.dreamwidth.org/profile">gizmometer</a>, <a href="http://gwenynen.dreamwidth.org/profile">gwenynen</a>, <a href="http://hairyears.dreamwidth.org/profile">hairyears</a>, <a href="http://hitchhiker.dreamwidth.org/profile">hitchhiker</a>, <a href="http://www.dreamwidth.org/profile?userid=817751&t=I">http://lotuslandfineart.com/velvetrope/</a>, <a href="http://ivymcallister.dreamwidth.org/profile">ivymcallister</a>, <a href="http://jack.dreamwidth.org/profile">jack</a>, <a href="http://jld.dreamwidth.org/profile">jld</a>, <a href="http://justkimu.dreamwidth.org/profile">justkimu</a>, <a href="http://kaberett.dreamwidth.org/profile">kaberett</a>, <a href="http://kake.dreamwidth.org/profile">kake</a>, <a href="http://lithiana.dreamwidth.org/profile">lithiana</a>, <a href="http://www.dreamwidth.org/profile?userid=69408&t=I">lnr.livejournal.com</a>, <a href="http://mirabehn.dreamwidth.org/profile">mirabehn</a>, <a href="http://mirrorshard.dreamwidth.org/profile">mirrorshard</a>, <a href="http://morwen.dreamwidth.org/profile">morwen</a>, <a href="http://naath.dreamwidth.org/profile">naath</a>, <a href="http://nethilia.dreamwidth.org/profile">nethilia</a>, <a href="http://nou.dreamwidth.org/profile">nou</a>, <a href="http://www.dreamwidth.org/profile?userid=9020&t=I">nou.livejournal.com</a>, <a href="http://ofearthandstars.dreamwidth.org/profile">ofearthandstars</a>, <a href="http://outofwater.dreamwidth.org/profile">outofwater</a>, <a href="http://piranha.dreamwidth.org/profile">piranha</a>, <a href="http://planetxanna.dreamwidth.org/profile">planetxanna</a>, <a href="http://pne.dreamwidth.org/profile">pne</a>, <a href="http://pseudomonas.dreamwidth.org/profile">pseudomonas</a>, <a href="http://reddragdiva.dreamwidth.org/profile">reddragdiva</a>, <a href="http://rowan.dreamwidth.org/profile">rowan</a>, <a href="http://www.dreamwidth.org/profile?userid=9529&t=I">rysmiel.livejournal.com</a>, <a href="http://safekeeper.dreamwidth.org/profile">safekeeper</a>, <a href="http://sath.dreamwidth.org/profile">sath</a>, <a href="http://simont.dreamwidth.org/profile">simont</a>, <a href="http://sparrowsion.dreamwidth.org/profile">sparrowsion</a>, <a href="http://tfcocs.dreamwidth.org/profile">tfcocs</a>, <a href="http://thomasthurman.dreamwidth.org/profile">thomasthurman</a>, <a href="http://treeowl.dreamwidth.org/profile">treeowl</a>, <a href="http://trochee.dreamwidth.org/profile">trochee</a>, <a href="http://turkeyplucker.dreamwidth.org/profile">turkeyplucker</a>, <a href="http://www.dreamwidth.org/profile?userid=237&t=I">weds.livejournal.com</a>, <a href="http://wildeabandon.dreamwidth.org/profile">wildeabandon</a>, <a href="http://wolfieboy.dreamwidth.org/profile">wolfieboy</a>, <a href="http://wordweaverlynn.dreamwidth.org/profile">wordweaverlynn</a>, <a href="http://zeldajean.dreamwidth.org/profile">zeldajean</a></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='not_mutually_watched_people_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="not_mutually_watched_people_arrow" />
+                    <a name='not_mutually_watched'>Other Subscriptions (18):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='not_mutually_watched_people_body'><strike><a href="http://auntysarah.dreamwidth.org/profile">auntysarah</a></strike>, <a href="http://chess.dreamwidth.org/profile">chess</a>, <a href="http://elynne.dreamwidth.org/profile">elynne</a>, <strike><a href="http://ex-beautyofgr925.dreamwidth.org/profile">ex_beautyofgr925</a></strike>, <a href="http://familyvalues.dreamwidth.org/profile">familyvalues</a>, <a href="http://forthwritten.dreamwidth.org/profile">forthwritten</a>, <a href="http://gallinggalla.dreamwidth.org/profile">gallinggalla</a>, <a href="http://highlyeccentric.dreamwidth.org/profile">highlyeccentric</a>, <a href="http://jacktellslies.dreamwidth.org/profile">jacktellslies</a>, <a href="http://kindjourneys.dreamwidth.org/profile">kindjourneys</a>, <strike><a href="http://madelienegrey.dreamwidth.org/profile">madelienegrey</a></strike>, <a href="http://manylegs.dreamwidth.org/profile">manylegs</a>, <a href="http://nanaya.dreamwidth.org/profile">nanaya</a>, <a href="http://rho.dreamwidth.org/profile">rho</a>, <a href="http://rosefox.dreamwidth.org/profile">rosefox</a>, <a href="http://sashajwolf.dreamwidth.org/profile">sashajwolf</a>, <a href="http://tajasel.dreamwidth.org/profile">tajasel</a>, <a href="http://tria.dreamwidth.org/profile">tria</a></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='not_mutually_watched_by_people_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="not_mutually_watched_by_people_arrow" />
+                    <a name='not_mutually_watched_by'>Other Subscribers (10):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='not_mutually_watched_by_people_body'><a href="http://andrewducker.dreamwidth.org/profile">andrewducker</a>, <a href="http://www.dreamwidth.org/profile?userid=8416&t=I">ghoti.livejournal.com</a>, <a href="http://hatter.dreamwidth.org/profile">hatter</a>, <a href="http://holzman-tweed.dreamwidth.org/profile">holzman_tweed</a>, <a href="http://jb-slasher.dreamwidth.org/profile">jb_slasher</a>, <a href="http://joedecker.dreamwidth.org/profile">joedecker</a>, <a href="http://phlebas.dreamwidth.org/profile">phlebas</a>, <a href="http://riordon.dreamwidth.org/profile">riordon</a>, <a href="http://srukle.dreamwidth.org/profile">srukle</a>, <a href="http://szabgab.dreamwidth.org/profile">szabgab</a></div> 
+        
+            </div>
+        
+            <div class='ljclear'></div>
+            <div class='section'>
+                <img src='http://s.dreamwidth.org/img/silk/identity/community.png' alt='' /> Communities
+                <span class="section_link">[<a href="http://marnanel.dreamwidth.org/read?show=C">View entries</a>]</span>
+            </div>
+            <div class='section_body' id='comms_body'>
+                
+            <p class='inner_section_header first'>
+                
+                <span class='expandcollapse on' id='member_of_comms_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="member_of_comms_arrow" />
+                    <a name='member_of'>Member Of (11):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='member_of_comms_body'><a href="http://cantabrigiensis.dreamwidth.org/profile">cantabrigiensis</a>, <a href="http://command-liners.dreamwidth.org/profile">command_liners</a>, <a href="http://confess-all.dreamwidth.org/profile">confess_all</a>, <a href="http://dw-community-promo.dreamwidth.org/profile">dw_community_promo</a>, <a href="http://dwim.dreamwidth.org/profile">dwim</a>, <a href="http://joule.dreamwidth.org/profile">joule</a>, <a href="http://linguaphiles.dreamwidth.org/profile">linguaphiles</a>, <a href="http://memewidth.dreamwidth.org/profile">memewidth</a>, <a href="http://perl.dreamwidth.org/profile">perl</a>, <a href="http://sonnets.dreamwidth.org/profile">sonnets</a>, <a href="http://wobblies.dreamwidth.org/profile">wobblies</a></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='watched_comms_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="watched_comms_arrow" />
+                    <a name='watched_communities'>Subscriptions (16):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='watched_comms_body'><a href="http://cantabrigiensis.dreamwidth.org/profile">cantabrigiensis</a>, <a href="http://command-liners.dreamwidth.org/profile">command_liners</a>, <a href="http://confess-all.dreamwidth.org/profile">confess_all</a>, <a href="http://dw-community-promo.dreamwidth.org/profile">dw_community_promo</a>, <a href="http://dw-maintenance.dreamwidth.org/profile">dw_maintenance</a>, <a href="http://dw-news.dreamwidth.org/profile">dw_news</a>, <a href="http://dwim.dreamwidth.org/profile">dwim</a>, <a href="http://joule.dreamwidth.org/profile">joule</a>, <a href="http://linguaphiles.dreamwidth.org/profile">linguaphiles</a>, <a href="http://memewidth.dreamwidth.org/profile">memewidth</a>, <a href="http://openvolume.dreamwidth.org/profile">openvolume</a>, <strike><a href="http://overheard-on-dw.dreamwidth.org/profile">overheard_on_dw</a></strike>, <a href="http://perl.dreamwidth.org/profile">perl</a>, <a href="http://sonnets.dreamwidth.org/profile">sonnets</a>, <strike><a href="http://taranen.dreamwidth.org/profile">taranen</a></strike>, <a href="http://wobblies.dreamwidth.org/profile">wobblies</a></div> 
+        
+            <p class='inner_section_header'>
+                
+                <span class='expandcollapse on' id='admin_of_comms_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' id="admin_of_comms_arrow" align="absmiddle" />
+                    <a name='admin_of'>Administrator Of (4):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='admin_of_comms_body'><a href="http://dwim.dreamwidth.org/profile">dwim</a>, <a href="http://joule.dreamwidth.org/profile">joule</a>, <a href="http://perl.dreamwidth.org/profile">perl</a>, <a href="http://sonnets.dreamwidth.org/profile">sonnets</a></div> 
+        
+            </div>
+        
+            <div class='ljclear'></div>
+            <div class='section'>
+                <img src='http://s.dreamwidth.org/img/silk/identity/feed.png' alt='' /> Feeds
+                <span class="section_link">[<a href="http://marnanel.dreamwidth.org/read?show=F">View Entries</a>]</span>
+            </div>
+            <div class='section_body' id='feeds_body'>
+                
+            <p class='inner_section_header first'>
+                
+                <span class='expandcollapse on' id='watched_feeds_header'>
+                    <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' id="watched_feeds_arrow" align="absmiddle" />
+                    <a name='watched_feeds'>Subscriptions (1):</a>
+                </span>
+            
+                
+            </p>
+             <div class='inner_section_body' id='watched_feeds_body'><a href="http://sumana-feed.dreamwidth.org/profile">sumana_feed</a></div> 
+        
+            </div>
+        
+            <div class='ljclear'></div>
+            <div class='section'>
+                
+            <span class='expandcollapse on' id='linking_header'>
+                <img src="http://s.dreamwidth.org/img/profile_icons/arrow-down.gif" width="12" height="12" alt="Open" title="Open" border='0' align="absmiddle" id="linking_arrow" />
+                 <a name='linking'>Linking</a>
+            </span>
+        
+                
+            </div>
+            <div class='section_body' id='linking_body'>
+                <div style='font-style:italic;'>To link to this user, copy this code:</div>On Dreamwidth:<input type="text" id="local" name="local" size="50" maxlength="100" value="&lt;user name=&quot;marnanel&quot;&gt;" /><br />Elsewhere: <input type="text" value="&lt;span style=&#39;white-space: nowrap;&#39;&gt;&lt;a href=&#39;http://marnanel.dreamwidth.org/profile&#39;&gt;&lt;img src=&#39;http://s.dreamwidth.org/img/silk/identity/user.png&#39; alt=&#39;[personal profile] &#39; width=&#39;17&#39; height=&#39;17&#39; style=&#39;vertical-align: text-bottom; border: 0; padding-right: 1px;&#39; /&gt;&lt;/a&gt;&lt;a href=&#39;http://marnanel.dreamwidth.org/&#39;&gt;&lt;b&gt;marnanel&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;" maxlength="550" size="50" name="local" id="local" /><br />
+            </div>
+         <div class='ljclear'></div>  </div> 
+    </div></div>
+</div>
+
+<hr />
+<div class="row"><div class="large-12 columns">
+    <div role="navigation"><p>[ <a href='http://www.dreamwidth.org/'>Home</a> | <a href='http://www.dreamwidth.org/update'>Post Entry</a> |
+    <a href='http://www.dreamwidth.org/login'>Log in</a> | 
+    <a href='http://www.dreamwidth.org/tools/search'>Search</a> | 
+    <a href='http://www.dreamwidth.org/manage/settings/'>Browse Options</a> | 
+    <a href='http://www.dreamwidth.org/site/'>Site Map</a> ]</p></div>
+    <div id='statistics' style='text-align: left; font-size:0; line-height:0; height:0; overflow:hidden;'></div></div></div>
+</body>
+</html>
+]]></source>
+<expect><![CDATA[
+...
+]]></expect>
+</wrangler-test>
