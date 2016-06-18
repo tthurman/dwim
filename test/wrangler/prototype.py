@@ -7,6 +7,8 @@ def wrangle_entries(entries):
 	for entry in entries:
 	    current = {}
 
+	    # XXX get date
+
             # Pick up all we can from the classes on
             # the entry wrapper div. This tells us
             # a whole lot.
