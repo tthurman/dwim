@@ -1,0 +1,276 @@
+<wrangler-test>
+<source>
+<![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="home" title="Home" href="http://www.dreamwidth.org/" />
+<link rel="contents" title="Site Map" href="http://www.dreamwidth.org/site/" />
+<link rel="help" title="Technical Support" href="http://www.dreamwidth.org/support/" /><style>
+    #Comments q { padding-left: 2.5em; font-style: italic; }
+</style><title>Reading</title>
+
+            <script type="text/javascript">
+                var Site;
+                if (!Site)
+                    Site = {};
+
+                var site_p = {"imgprefix": "http://s.dreamwidth.org/img",
+"ctx_popup_userhead": 1,
+"ctx_popup_icons": 1,
+"statprefix": "http://s.dreamwidth.org/stc",
+"ctx_popup": 1,
+"iconprefix": "http://v.dreamwidth.org",
+"esn_async": 1,
+"currentJournalBase": "http://testuser0.dreamwidth.org",
+"siteroot": "http://www.dreamwidth.org",
+"inbox_update_poll": 1,
+"has_remote": 0,
+"user_domain": "dreamwidth.org",
+"currentJournal": "testuser0",
+"media_embed_enabled": 1};
+                var site_k = ["imgprefix", "ctx_popup_userhead", "ctx_popup_icons", "statprefix", "ctx_popup", "iconprefix", "esn_async", "currentJournalBase", "siteroot", "inbox_update_poll", "has_remote", "user_domain", "currentJournal", "media_embed_enabled"];
+                for (var i = 0; site_k.length > i; i++) {
+                    Site[site_k[i]] = site_p[site_k[i]];
+                }
+           </script>
+        <link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??lj_base.css,esn.css,jquery/jquery.ui.core.css,jquery/jquery.ui.tooltip.css,jquery.contextualhover.css,lj_base-app.css,base-colors-light.css,lynx/lynx.css?v=1448242038" />
+<link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??css/components/quick-reply.css,jquery/jquery.ui.theme.smoothness.css,jquery/jquery.ui.button.css,jquery/jquery.ui.dialog.css,siteviews/layout.css,siteviews/lynx.css?v=1460259850" />
+<script type="text/javascript" src="//s.dreamwidth.org/js/??jquery/jquery-1.8.3.js,dw/dw-core.js,jquery/jquery.ui.core.js,jquery/jquery.ui.widget.js,jquery/jquery.ui.tooltip.js,jquery.ajaxtip.js,jquery/jquery.ui.position.js,jquery.hoverIntent.js,jquery.contextualhover.js?v=1440903277"></script>
+<script type="text/javascript" src="//s.dreamwidth.org/js/??jquery.esn.js,jquery.quickreply.js,jquery.threadexpander.js,jquery.cuttag-ajax.js,jquery/jquery.ui.button.js,jquery/jquery.ui.dialog.js,jquery.poll.js,journals/jquery.tag-nav.js,jquery.mediaplaceholder.js?v=1460259022"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="http://testuser0.dreamwidth.org/data/foaf" />
+<link rel="help" href="http://www.dreamwidth.org/support/faq" />
+<link rel="apple-touch-icon" href="//www.dreamwidth.org/apple-touch-icon.png" />
+<meta http-equiv="X-XRDS-Location" content="http://testuser0.dreamwidth.org/data/yadis/friends" />
+
+  <script type='text/javascript'>
+  expanded = 'Collapse';
+  collapsed = 'Expand';
+  collapseAll = 'Collapse All Cut Tags';
+  expandAll = 'Expand All Cut Tags';
+  </script>
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
+<link rel="prev" href="http://testuser0.dreamwidth.org/read?skip=20" />
+
+</head>
+
+<body >
+
+<div role="main" id="content">
+    <div class="row">
+        <div class="columns large-12">
+        <h1></h1>
+        </div>
+    </div>
+
+
+    <div class="row"><div class="large-12 columns">
+    <div id="entries" class="hfeed">
+        <div class="inner">
+            
+    <div class="navigation topnav">
+        <div class="inner">
+    <ul><li class="page-back"><a href="http://testuser0.dreamwidth.org/read?skip=20">Previous 20</a></li>
+</ul>
+        </div><!-- navigation>inner -->
+    </div><!-- navigation -->
+    <div class="entry-wrapper entry-wrapper-odd security-public restrictions-none journal-type-P poster-testuser1 journal-testuser1 has-userpic has-subject" id="entry-wrapper-100">
+<div class="separator separator-before"><div class="inner"></div></div>
+<div class="entry" id="entry-100">
+<div class="inner">
+<div class="header">
+<div class="inner">
+<div class="userpic"><a href="http://testuser1.dreamwidth.org/icons"><img src="http://v.dreamwidth.org/111/111" title="testuser1: userpic" alt="testuser1: userpic"  height="100" width="100" /></a></div>
+<div class="poster-info">
+<span class="poster entry-poster ">Test User 1 (<span lj:user='testuser1' style='white-space: nowrap;' class='ljuser'><a href='http://testuser1.dreamwidth.org/profile'><img src='http://s.dreamwidth.org/img/silk/identity/user.png' alt='[personal profile] ' width='17' height='17' style='vertical-align: text-bottom; border: 0; padding-right: 1px;' /></a><a href='http://testuser1.dreamwidth.org/'><b>testuser1</b></a></span>) wrote</span><span class="datetime"><span class="date">2016-06-18</span> <span class="time">05:24 am</span></span></div>
+</div>
+<div class="action-box">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testuser1&amp;itemid=100" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testuser1&amp;itemid=100" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul></div>
+</div>
+</div>
+<div class="currents">
+</div>
+<div>
+<div class="contents usercontent">
+<div class="inner">
+<h3 class="entry-title"><a title="Title 100" href="http://testuser1.dreamwidth.org/100.html">Title 100</a></h3><div class="entry-content">
+Content of post 100 for testuser1.
+</div>
+</div>
+<div class="footer">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testuser1&amp;itemid=100" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testuser1&amp;itemid=100" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul><ul class="entry-interaction-links text-links" data-quickreply-target="entry-testuser1-100-reply">
+<li class="entry-permalink first-item"><a href="http://testuser1.dreamwidth.org/100.html?format=light">Link</a></li>
+<li class="entry-readlink"><a href="http://testuser1.dreamwidth.org/100.html?format=light#comments" data-sing="1 comment" data-dual="2 comments" data-plur="3 comments">1 comment</a></li>
+<li class="entry-replylink"><a onclick='return function(that) {return quickreply("entry-testuser1-100-reply", 0, "",that)}(this)' href='http://testuser1.dreamwidth.org/100.html?mode=reply&format=light' >Reply</a></li>
+</ul><div  id="ljqrtentry-testuser1-100-reply" data-quickreply-container="entry-testuser1-100-reply" style="display: none;"></div></div>
+</div>
+</div>
+</div>
+<div class="separator separator-after"><div class="inner"></div></div>
+</div>
+<div class="entry-wrapper entry-wrapper-even security-public restrictions-none journal-type-P poster-testuser5 journal-testuser5 has-userpic has-subject" id="entry-wrapper-200">
+<div class="separator separator-before"><div class="inner"></div></div>
+<div class="entry" id="entry-200">
+<div class="inner">
+<div class="header">
+<div class="inner">
+<div class="userpic"><a href="http://testuser5.dreamwidth.org/icons"><img src="http://v.dreamwidth.org/555/555" title="testuser5: userpic" alt="testuser5: userpic"  height="86" width="100" /></a></div>
+<div class="poster-info">
+<span class="poster entry-poster ">testuser5 (<span lj:user='testuser5' style='white-space: nowrap;' class='ljuser'><a href='http://testuser5.dreamwidth.org/profile'><img src='http://s.dreamwidth.org/img/silk/identity/user.png' alt='[personal profile] ' width='17' height='17' style='vertical-align: text-bottom; border: 0; padding-right: 1px;' /></a><a href='http://testuser5.dreamwidth.org/'><b>testuser5</b></a></span>) wrote</span><span class="datetime"><span class="date">2016-06-17</span> <span class="time">05:33 pm</span></span></div>
+</div>
+<div class="action-box">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testuser5&amp;itemid=200" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testuser5&amp;itemid=200" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul></div>
+</div>
+</div>
+<div class="currents">
+<div class="metadata bottom-metadata">
+<ul>
+<li id="metadata-mood"><span class="metadata-label metadata-label-mood">Current Mood:</span>   <span class="metadata-item metadata-item-mood">amused</span></li>
+</ul>
+</div>
+</div>
+<div>
+<div class="contents usercontent">
+<div class="inner">
+<h3 class="entry-title"><a title="Title 200" href="http://testuser5.dreamwidth.org/2016/06/17/title-200.html">Title 200</a></h3><div class="entry-content">
+
+Content of entry 200 for testuser5.
+</div></div>
+</div>
+</div>
+<div class="footer">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testuser5&amp;itemid=200" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testuser5&amp;itemid=200" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul><ul class="entry-interaction-links text-links" data-quickreply-target="entry-testuser5-200-reply">
+<li class="entry-permalink first-item"><a href="http://testuser5.dreamwidth.org/2016/06/17/title-200.html?format=light">Link</a></li>
+<li class="entry-readlink"><a href="http://testuser5.dreamwidth.org/2016/06/17/title-200.html?format=light#comments" data-sing="1 comment" data-dual="2 comments" data-plur="3 comments">2 comments</a></li>
+<li class="entry-replylink"><a onclick='return function(that) {return quickreply("entry-testuser5-200-reply", 0, "",that)}(this)' href='http://testuser5.dreamwidth.org/2016/06/17/title-200.html?mode=reply&format=light' >Reply</a></li>
+</ul><div  id="ljqrtentry-testuser5-200-reply" data-quickreply-container="entry-testuser5-200-reply" style="display: none;"></div></div>
+</div>
+</div>
+</div>
+<div class="separator separator-after"><div class="inner"></div></div>
+</div>
+<div class="entry-wrapper entry-wrapper-odd security-public restrictions-none journal-type-P poster-testuser1 journal-testuser1 has-userpic has-subject" id="entry-wrapper-300">
+<div class="separator separator-before"><div class="inner"></div></div>
+<div class="entry" id="entry-300">
+<div class="inner">
+<div class="header">
+<div class="inner">
+<div class="userpic"><a href="http://testuser1.dreamwidth.org/icons"><img src="http://v.dreamwidth.org/111/111" title="testuser1: userpic" alt="testuser1: userpic"  height="100" width="60" /></a></div>
+<div class="poster-info">
+<span class="poster entry-poster ">Test User 1 (<span lj:user='testuser1' style='white-space: nowrap;' class='ljuser'><a href='http://testuser1.dreamwidth.org/profile'><img src='http://s.dreamwidth.org/img/silk/identity/user.png' alt='[personal profile] ' width='17' height='17' style='vertical-align: text-bottom; border: 0; padding-right: 1px;' /></a><a href='http://testuser1.dreamwidth.org/'><b>testuser1</b></a></span>) wrote</span><span class="datetime"><span class="date">2016-06-17</span> <span class="time">02:34 pm</span></span></div>
+</div>
+<div class="action-box">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testuser1&amp;itemid=300" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testuser1&amp;itemid=300" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul></div>
+</div>
+</div>
+<div class="currents">
+</div>
+<div>
+<div class="contents usercontent">
+<div class="inner">
+<h3 class="entry-title"><a title="Title 300" href="http://testuser1.dreamwidth.org/300.html">Title 300</a></h3><div class="entry-content">
+
+Content of entry 300 for user testuser1.
+</div></div>
+</div>
+</div>
+<div class="footer">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testuser1&amp;itemid=300" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testuser1&amp;itemid=300" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul><ul class="entry-interaction-links text-links" data-quickreply-target="entry-testuser1-300-reply">
+<li class="entry-permalink first-item"><a href="http://testuser1.dreamwidth.org/300.html?format=light">Link</a></li>
+<li class="entry-readlink" style="display:none"><a href="http://testuser1.dreamwidth.org/300.html?format=light#comments" data-sing="1 comment" data-dual="2 comments" data-plur="3 comments">0 comments</a></li>
+<li class="entry-replylink"><a onclick='return function(that) {return quickreply("entry-testuser1-300-reply", 0, "",that)}(this)' href='http://testuser1.dreamwidth.org/300.html?mode=reply&format=light' >Reply</a></li>
+</ul><div  id="ljqrtentry-testuser1-300-reply" data-quickreply-container="entry-testuser1-300-reply" style="display: none;"></div></div>
+</div>
+</div>
+</div>
+<div class="separator separator-after"><div class="inner"></div></div>
+</div>
+<div class="entry-wrapper entry-wrapper-even security-public restrictions-none journal-type-C poster-testuser7 journal-testcomm4 has-userpic has-subject" id="entry-wrapper-400">
+<div class="separator separator-before"><div class="inner"></div></div>
+<div class="entry" id="entry-400">
+<div class="inner">
+<div class="header">
+<div class="inner">
+<div class="userpic"><a href="http://testuser7.dreamwidth.org/icons"><img src="http://v.dreamwidth.org/777/777" title="testuser7: userpic" alt="testuser7: userpic"  height="100" width="100" /></a></div>
+<div class="poster-info">
+<span class="poster entry-poster ">Test User 7 (<span lj:user='testuser7' style='white-space: nowrap;' class='ljuser'><a href='http://testuser7.dreamwidth.org/profile'><img src='http://s.dreamwidth.org/img/silk/identity/user_staff.png' alt='[staff profile] ' width='17' height='17' style='vertical-align: text-bottom; border: 0; padding-right: 1px;' /></a><a href='http://testuser7.dreamwidth.org/'><b>testuser7</b></a></span>) wrote in <span lj:user='testcomm4' style='white-space: nowrap;' class='ljuser'><a href='http://testcomm4.dreamwidth.org/profile'><img src='http://s.dreamwidth.org/img/comm_staff.png' alt='[site community profile] ' width='16' height='16' style='vertical-align: text-bottom; border: 0; padding-right: 1px;' /></a><a href='http://testcomm4.dreamwidth.org/'><b>testcomm4</b></a></span></span><span class="datetime"><span class="date">2016-06-17</span> <span class="time">11:06 am</span></span></div>
+</div>
+<div class="action-box">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testcomm4&amp;itemid=400" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testcomm4&amp;itemid=400" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul></div>
+</div>
+</div>
+<div class="currents">
+</div>
+<div>
+<div class="contents usercontent">
+<div class="inner">
+<h3 class="entry-title"><a title="Title 400" href="http://testcomm4.dreamwidth.org/400.html">Title 400</a></h3><div class="entry-content">Content for entry 400 for community testcomm4, posted by testuser7.</div></div>
+</div>
+</div>
+<div class="footer">
+<div class="inner">
+<ul class="entry-management-links icon-links"><li class="link mem_add first-item"><a href="http://www.dreamwidth.org/tools/memadd?journal=testcomm4&amp;itemid=400" ><img border='0' width="16" height="16" alt="Add Memory" title="Add Memory" src="//s.dreamwidth.org/img/silk/entry/memories_add.png"  /></a></li>
+<li class="link tell_friend"><a href="http://www.dreamwidth.org/tools/tellafriend?journal=testcomm4&amp;itemid=400" ><img border='0' width="16" height="16" alt="Share This Entry" title="Share This Entry" src="//s.dreamwidth.org/img/silk/entry/tellafriend.png"  /></a></li>
+</ul><ul class="entry-interaction-links text-links" data-quickreply-target="entry-testcomm4-400-reply">
+<li class="entry-permalink first-item"><a href="http://testcomm4.dreamwidth.org/400.html?format=light">Link</a></li>
+<li class="entry-readlink"><a href="http://testcomm4.dreamwidth.org/400.html?format=light#comments" data-sing="1 comment" data-dual="2 comments" data-plur="3 comments">13 comments</a></li>
+<li class="entry-replylink"><a onclick='return function(that) {return quickreply("entry-testcomm4-400-reply", 0, "",that)}(this)' href='http://testcomm4.dreamwidth.org/400.html?mode=reply&format=light' >Reply</a></li>
+</ul><div  id="ljqrtentry-testcomm4-400-reply" data-quickreply-container="entry-testcomm4-400-reply" style="display: none;"></div></div>
+</div>
+</div>
+</div>
+<div class="separator separator-after"><div class="inner"></div></div>
+</div>
+
+    <div class="navigation bottomnav">
+        <div class="inner">
+    <ul><li class="page-back"><a href="http://testuser0.dreamwidth.org/read?skip=20">Previous 20</a></li>
+</ul>
+        </div><!-- navigation>inner -->
+    </div><!-- navigation -->
+    
+        </div><!-- entries>inner-->
+    </div><!-- entries -->
+        </div></div>
+</div>
+
+<hr />
+<div class="row"><div class="large-12 columns">
+    <div role="navigation"><p>[ <a href='http://www.dreamwidth.org/'>Home</a> | <a href='http://www.dreamwidth.org/update'>Post Entry</a> |
+    <a href='http://www.dreamwidth.org/login'>Log in</a> | 
+    <a href='http://www.dreamwidth.org/tools/search'>Search</a> | 
+    <a href='http://www.dreamwidth.org/manage/settings/'>Browse Options</a> | 
+    <a href='http://www.dreamwidth.org/site/'>Site Map</a> ]</p></div>
+    <div id='statistics' style='text-align: left; font-size:0; line-height:0; height:0; overflow:hidden;'></div></div></div>
+</body>
+</html>
+]]></source>
+<expect><![CDATA[
+...
+]]></expect>
+</wrangler-test>
+
