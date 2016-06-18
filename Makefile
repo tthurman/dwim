@@ -1,8 +1,8 @@
 build: gradlew build.gradle
 	./gradlew assembleDebug
 
-install: build
-	adb install -rd target/dwim.apk
+install:
+	adb install -rd build/outputs/apk/dwim-debug.apk
 
 build.gradle: build.gradle.in
 	cp build.gradle.in build.gradle

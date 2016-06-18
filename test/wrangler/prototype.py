@@ -33,6 +33,17 @@ def wrangle_entries(entries):
 	    if taglist is not None:
 	       for tag in taglist.find_all(rel='tag'):
 		   current['tags'].append(tag.string)
+            current['tags'] = sorted(current['tags'])
+
+	    current['userpic'] = {}
+	    userpic = entry.find(class_='userpic')
+	    if userpic is not None:
+		img = userpic.find('img')
+
+		if img is not None:
+		    for attrib in ('src', 'width', 'height'):
+			if img.has_attr(attrib):
+			    current['userpic'][attrib] = img[attrib]
 
 	    result.append(current)
 	return result

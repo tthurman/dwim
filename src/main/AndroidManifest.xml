@@ -3,9 +3,12 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <application android:icon="@drawable/icon" android:label="Dwim">
+    <application
+        android:name="org.marnanel.dwim.DwimApplication"
+    	android:icon="@drawable/icon"
+	android:label="Dwim">
 
-      <activity android:name=".MainActivity" android:label="Dwim">
+      <activity android:name=".activities.TimelineActivity" android:label="Dwim">
         <intent-filter>
           <action android:name="android.intent.action.MAIN" />
           <category android:name="android.intent.category.DEFAULT" />
