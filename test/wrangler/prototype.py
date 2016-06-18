@@ -28,6 +28,12 @@ def wrangle_entries(entries):
 	    current['permalink'] = title['href']
 	    current['title'] = title['title']
 
+	    current['tags'] = []
+	    taglist = entry.find(class_='tag')
+	    if taglist is not None:
+	       for tag in taglist.find_all(rel='tag'):
+		   current['tags'].append(tag.string)
+
 	    result.append(current)
 	return result
 
