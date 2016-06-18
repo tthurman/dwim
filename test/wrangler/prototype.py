@@ -78,7 +78,16 @@ def wrangle_icons(iconlist):
 	    # cause clashes sooner or later.
 	    icon = iconinfo.parent
 
-	    current = {}
+	    current = {
+		'comment': '',
+		'default': False,
+		'description': '',
+		'height': 0,
+		'keywords': [],
+		'src': '',
+		'title': '',
+		'width': 0,
+		}
 
 	    current['default'] = 'icon-default' in icon['class']
 
@@ -100,7 +109,11 @@ def wrangle_icons(iconlist):
 		text = ''.join([unicode(x) for x in spanchildren]).strip()
 		current[field] = text
 
-	    # XXX plus keyword list
+
+	    keywords = icon.find(class_='icon-keywords')
+	    if keywords is not None:
+		for keyword in keywords.find_all('li'):
+			current['keywords'].append(unicode(keyword.string))
 
             result.append(current)
 
