@@ -65,6 +65,44 @@ def wrangle_taglist(html):
 
 	return sorted(result)
 
+def wrangle_icons(iconlist):
+	result = []
+
+	for iconinfo in iconlist:
+
+	    # We actually wanted the parent, but
+	    # its class is "icon", which is going to
+	    # cause clashes sooner or later.
+	    icon = iconinfo.parent
+
+	    current = {}
+
+	    current['default'] = 'icon-default' in icon['class']
+
+	    for (field, value) in icon.find('img').attrs.items():
+		if field in ('height', 'width', 'title', 'src'):
+                   current[field] = value
+
+            for field in ('comment', 'description'):
+		span = icon.find(class_='icon-'+field)
+
+		if span is None:
+		    continue
+
+		spanchildren = span.children
+
+		# skip the first entry, which is the name of the field
+		spanchildren.next()
+
+		text = ''.join([unicode(x) for x in spanchildren]).strip()
+		current[field] = text
+
+	    # plus keyword list
+
+            result.append(current)
+
+	return result
+
 def wrangle(html):
 	"""
 	This is a Python version of the "wrangle" static method
@@ -90,6 +128,13 @@ def wrangle(html):
 	if taglist is not None:
 	    result['type'] = 'taglist'
 	    result['tags'] = wrangle_taglist(taglist)
+	    return result
+
+	icons = soup.find_all(class_='icon-info')
+	if icons:
+	    result['type'] = 'icons'
+	    result['icons'] = wrangle_icons(icons)
+	    return result
 
 	result['type'] = 'unknown'
 	return result
