@@ -45,7 +45,10 @@ def wrangle_entries(entries):
 			if img.has_attr(attrib):
 			    current['userpic'][attrib] = img[attrib]
 
+	    # XXX also produce a list of images in the content
+
 	    result.append(current)
+
 	return result
 
 def wrangle_taglist(html):
