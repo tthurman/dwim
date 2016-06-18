@@ -14,7 +14,11 @@ def wrangle(html):
 	"""
 	result = {}
 	soup = bs4.BeautifulSoup(html, 'lxml')
-	print 'soup ok'
+
+	if soup.find(class_='entry-wrapper'):
+	    result['type'] = 'timeline'
+	else:
+	    result['type'] = 'unknown'
 	return result
 
 def handle(filename):
