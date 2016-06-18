@@ -21,6 +21,13 @@ def wrangle_entries(entries):
 
 			current[field] = value
 
+            content = entry.find(class_='entry-content')
+	    current['content'] = content.renderContents()
+
+            title = entry.find(class_='entry-title').find('a')
+	    current['permalink'] = title['href']
+	    current['title'] = title['title']
+
 	    result.append(current)
 	return result
 
