@@ -1,5 +1,28 @@
 import argparse
 import bs4
+import json
+
+def wrangle_entries(entries):
+	result = []
+	for entry in entries:
+	    current = {}
+
+            # Pick up all we can from the classes on
+            # the entry wrapper div. This tells us
+            # a whole lot.
+            for klass in entry['class']:
+		if '-' in klass \
+		    and not klass.startswith('has-') \
+		    and not klass.startswith('entry-'):
+
+			last_hyphen = klass.rindex('-')   
+			field = klass[:last_hyphen]
+			value = klass[last_hyphen+1:]
+
+			current[field] = value
+
+	    result.append(current)
+	return result
 
 def wrangle(html):
 	"""
@@ -15,8 +38,11 @@ def wrangle(html):
 	result = {}
 	soup = bs4.BeautifulSoup(html, 'lxml')
 
-	if soup.find(class_='entry-wrapper'):
+	entries = soup.find_all(class_='entry-wrapper')
+
+	if entries:
 	    result['type'] = 'timeline'
+	    result['entries'] = wrangle_entries(entries)
 	else:
 	    result['type'] = 'unknown'
 	return result
@@ -29,7 +55,7 @@ def handle(filename):
 
 	result = wrangle(source)
 
-	print result
+	print json.dumps(result, indent=2, sort_keys=True)
 
 def main():
 	parser = argparse.ArgumentParser(description="prototype test for Dwim wrangler")
