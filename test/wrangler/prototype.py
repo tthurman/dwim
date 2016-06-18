@@ -24,6 +24,9 @@ def wrangle_entries(entries):
             content = entry.find(class_='entry-content')
 	    current['content'] = content.renderContents()
 
+	    images = content.find_all('img')
+	    current['images'] = [unicode(img.href) for img in content.find_all('img')]
+
             title = entry.find(class_='entry-title').find('a')
 	    current['permalink'] = title['href']
 	    current['title'] = title['title']
@@ -44,8 +47,6 @@ def wrangle_entries(entries):
 		    for attrib in ('src', 'width', 'height'):
 			if img.has_attr(attrib):
 			    current['userpic'][attrib] = img[attrib]
-
-	    # XXX also produce a list of images in the content
 
 	    result.append(current)
 
