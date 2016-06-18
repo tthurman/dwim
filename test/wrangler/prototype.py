@@ -97,7 +97,7 @@ def wrangle_icons(iconlist):
 		text = ''.join([unicode(x) for x in spanchildren]).strip()
 		current[field] = text
 
-	    # plus keyword list
+	    # XXX plus keyword list
 
             result.append(current)
 
@@ -114,6 +114,9 @@ def wrangle(html):
 	that HTML. In the Android version, we'd be returning a
 	JSON object.
 	"""
+
+	# XXX check for whether we're logged in
+
 	result = {}
 	soup = bs4.BeautifulSoup(html, 'lxml')
 
@@ -122,6 +125,7 @@ def wrangle(html):
 	if entries:
 	    result['type'] = 'timeline'
 	    result['entries'] = wrangle_entries(entries)
+	    # XXX we also need to add title, subtitle, and whether this is lastn
 	    return result
 
 	taglist = soup.find(class_='ljtaglist')
@@ -135,6 +139,9 @@ def wrangle(html):
 	    result['type'] = 'icons'
 	    result['icons'] = wrangle_icons(icons)
 	    return result
+
+
+	# XXX type="profile"
 
 	result['type'] = 'unknown'
 	return result
