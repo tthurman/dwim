@@ -48,6 +48,23 @@ def wrangle_entries(entries):
 	    result.append(current)
 	return result
 
+def wrangle_taglist(html):
+	result = []
+
+	# scan the <a> links, not the text, so that
+	# we get the full name of hierarchical tags.
+	links = html.find_all(rel="tag")
+
+	for link in links:
+	    target = link['href']
+
+	    last_slash = target.rindex('/')
+	    target = target[last_slash+1:]
+
+	    result.append(unicode(target))
+
+	return sorted(result)
+
 def wrangle(html):
 	"""
 	This is a Python version of the "wrangle" static method
@@ -67,8 +84,14 @@ def wrangle(html):
 	if entries:
 	    result['type'] = 'timeline'
 	    result['entries'] = wrangle_entries(entries)
-	else:
-	    result['type'] = 'unknown'
+	    return result
+
+	taglist = soup.find(class_='ljtaglist')
+	if taglist is not None:
+	    result['type'] = 'taglist'
+	    result['tags'] = wrangle_taglist(taglist)
+
+	result['type'] = 'unknown'
 	return result
 
 def handle(filename):
