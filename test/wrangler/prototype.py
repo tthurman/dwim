@@ -126,7 +126,6 @@ def wrangle_login(login):
 	result = {}
 
 	for inputfield in login.find_all('input'):
-		print inputfield
 		if inputfield['name'] in ('lj_form_auth', 'chal', 'response'):
 		    result[inputfield['name']] = inputfield['value']
 

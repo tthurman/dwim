@@ -305,6 +305,101 @@
 </html>
 ]]></source>
 <expect><![CDATA[
-...
+{
+  "entries": [
+    {
+      "content": "some things to know about me:<br/><br/>* I may be wrong and often am. If I am, I would like to know, and learn better. But...<br/>* I hate conflict. If you are rude, aggressive, hostile, ridiculing, I'll probably not talk to you.<br/>* I am aware that I am privileged in many ways; if I show unchecked privilege, I appreciate hearing about it and I promise to take it seriously. I expect the same from you.<br/>* Autonomy is important. I would like to hear your stories rather than tell my own. But if your behaviour involves nonconsensual damage to others, especially children, I am unlikely to be sympathetic (to put it mildly). Anti-vaccination people are specifically included here as people who damage children.<br/>* I love hugs and cuddles, but please don't touch me without asking.<br/>* If I have a panic attack, please hang around. Afterwards I will probably go and hide somewhere for a bit, and then I probably won't cope too well with people talking to me.<br/>* If I'm occupied with nothing but my phone in public, that's probably a way of hiding.<br/>* I hate phone calls. I hate making them, and I hate receiving them. Text or email instead, unless it's urgent, or you've arranged it otherwise. (To my parents: yes, you count as having arranged otherwise. But I still prefer email.)<br/>* My pronouns are they/them, though zie/zir is fine too, and other pronouns are all right where I'm not out as genderqueer. If you get it wrong, that's fine. But don't get it wrong on purpose.<br/>* <em>Do not shout at me.</em> Ever.<br/>* I like reconciliation. If we were friends in the past, I probably want to be friends again. There are a very few exceptions, but you know who you are.<br/>* I like vegetarian food, but I'll eat some kinds of meat if that's all that's available. I'm allergic to uncooked egg (and this includes scrambled eggs, for some reason). Eggs in things like cake are fine. Actually, cake is lovely in general.<br/>* I have a bad habit of avoiding dealing with things I don't know how to handle, especially emails I don't know how to answer. In particular, I love getting fanmail, but I'm rather bad at answering it. I'm really sorry: I'm working on it. I do read it all, and it does make me happy, and I love you all.<br/>* Please don't assume I can pick up on hints, or flirting, or that I know any particular social conventions about conversations; please be explicit. If there's something you can't or don't want to talk about, I will pick it up and worry about it if you lie about the things round the edges in inconsistent ways. I really like it when people talk to me about how they want to talk to me and how I want to talk to them.<br/>* I'll try to add trigger warnings to posts and pictures. Again, if I get it wrong, let me know.<br/>* I have triggers of my own. I may have to leave a conversation because of them. It's a PTSD thing.<br/>* Reciting poetry and singing and scripting/echolalia are coping habits.<br/>* I apologise too much. I'm working on it.<br/><br/>Did I miss anything? Questions and comments and suggestions are welcome.", 
+      "images": [], 
+      "journal": "marnanel", 
+      "journal-type": "P", 
+      "permalink": "http://marnanel.dreamwidth.org/330693.html", 
+      "poster": "marnanel", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [
+        "care and feeding of marnanel"
+      ], 
+      "title": "the care and feeding of marnanel", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/54361/470", 
+        "width": "100"
+      }
+    }, 
+    {
+      "content": "[blood, guns, Islamophobia]<br/><br/>February 2016: Trump tells (untrue) story about General Pershing stopping terrorism by shooting Muslims with bullets dipped in pig blood. <a href=\"http://www.politifact.com/truth-o-meter/statements/2016/feb/23/donald-trump/donald-trump-cites-dubious-legend-about-gen-pershi/\">http://www.politifact.com/truth-o-m<wbr></wbr>eter/statements/2016/feb/23/donald-trump/d<wbr></wbr>onald-trump-cites-dubious-legend-about-g<wbr></wbr>en-pershi/</a><br/><br/>May 2016: Texans are dipping their bullets in pig blood. <a href=\"http://www.independent.co.uk/news/world/americas/texas-men-train-to-shoot-muslims-and-dip-bullets-in-pig-blood-so-victims-go-straight-to-hell-a7053086.html\">http://www.independent.co.uk/news/w<wbr></wbr>orld/americas/texas-men-train-to-shoot-m<wbr></wbr>uslims-and-dip-bullets-in-pig-blood-so-v<wbr></wbr>ictims-go-straight-to-hell-a7053086.html</a><wbr></wbr>", 
+      "images": [], 
+      "journal": "marnanel", 
+      "journal-type": "P", 
+      "permalink": "http://marnanel.dreamwidth.org/369631.html", 
+      "poster": "marnanel", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [
+        "politics"
+      ], 
+      "title": "pig blood", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/54361/470", 
+        "width": "100"
+      }
+    }, 
+    {
+      "content": "When John Denver says \"you fill up my senses like a night in the forest\", is that supposed to be a compliment? Because I don't get it.<br/><br/>Forest floors are full of stones and roots, and dead needles if it's a pine forest, and you can't get comfortable. There are mosquitos hanging around, as well as other nasties that want to bite you. It pours with rain, and then the trees carry on dripping on you for hours.<br/><br/>It gets really really dark, with weird rustling noises, which is terrifying if you can't find your way out of the forest. And if you CAN find your way out of the forest, why the hell are you still in the forest?<br/><br/>I'd assume forests are different where John Denver comes from, except I know they're even worse because there are venomous snakes and poison ivy.<br/><br/>So if someone said I filled up their senses like a night in the forest, I'd think they meant I look pretty good from a distance, but when you get up close you'll wish you hadn't. IDK, maybe that's what John Denver meant too.", 
+      "images": [], 
+      "journal": "marnanel", 
+      "journal-type": "P", 
+      "permalink": "http://marnanel.dreamwidth.org/368835.html", 
+      "poster": "marnanel", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [], 
+      "title": "like a night in the forest", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/54361/470", 
+        "width": "100"
+      }
+    }, 
+    {
+      "content": "The koan thing has always messed with my head. I once had a coworker who converted to Buddhism and got very excited about koans, and for the first few months we had conversations like this:<br/><br/>Me: I can't decide how best to fake up the credit card handling on the staging server. Any thoughts?<br/>Him: Does a man who owns a forest buy his own axe?<br/>Me: I don't know.<br/>Me: ....<br/>Him: ....<br/>Me: Hey, I have a friend who owns some woodland. I could phone him and ask?<br/><br/>It might not have been that particular sentence, I forget now, but I could never make anything of things he said like that. He stopped doing it after a while.<br/><br/>Someone explained the \"one hand clapping\" one to me once so I get that.", 
+      "images": [], 
+      "journal": "marnanel", 
+      "journal-type": "P", 
+      "permalink": "http://marnanel.dreamwidth.org/367924.html", 
+      "poster": "marnanel", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [], 
+      "title": "koans", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/54361/470", 
+        "width": "100"
+      }
+    }, 
+    {
+      "content": "#voted.<br/>Outside:<br/>\"Hello, I'm the Ukip candidate.\"<br/>\"Not at all my thing, I'm afraid.\"<br/>\"Oh, don't worry, I'm on the liberal wing of Ukip.\"<br/>\"The...?\"<br/>\"Everyone says we're about racism! It's not about racism! It's about space! Like, I proposed at national conference to send a cruise ship to the Med to pick up the migrants and check their papers. Better than letting them drown!\"<br/>\"Well, yes, better than letting them drown.\"<br/>\"But let me tell about healthcare tourism! People from all over the world come here and get treated free.\"<br/>\"It's not that common for...\"<br/>\"Pshaw! Have you been to Salford Royal recently?\"<br/>\"Then why did I need to get health insurance when I lived in the US and came back to the UK?\"<br/>\"That's what I mean! Foreigners shoulf have health insurance!\"<br/>\"We have to go now.\"<br/>\"Thanks for talking to me! So many people don't.\"", 
+      "images": [], 
+      "journal": "marnanel", 
+      "journal-type": "P", 
+      "permalink": "http://marnanel.dreamwidth.org/367195.html", 
+      "poster": "marnanel", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [
+        "politics"
+      ], 
+      "title": "the liberal wing of Ukip", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/54361/470", 
+        "width": "100"
+      }
+    }
+  ], 
+  "type": "timeline"
+}
 ]]></expect>
 </wrangler-test>

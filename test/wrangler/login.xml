@@ -103,6 +103,13 @@
 </html>
 ]]></source>
 <expect><![CDATA[
-...
+{
+  "login": {
+    "chal": "c0:1466344800:2557:300:4HYhnJc2HSRVpVcYxZkF:c02e4d4195950dc819efe724cb2f0859", 
+    "lj_form_auth": "c0:1466344800:2557:86400:TfIBWEWn81-0-N8K2If7CUZztyLH:491c2abe605438c2f5179893f8cba0d0", 
+    "response": ""
+  }, 
+  "type": "login"
+}
 ]]></expect>
 </wrangler-test>

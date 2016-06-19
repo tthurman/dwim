@@ -270,7 +270,79 @@ Content of entry 300 for user testuser1.
 </html>
 ]]></source>
 <expect><![CDATA[
-...
+{
+  "entries": [
+    {
+      "content": "\nContent of post 100 for testuser1.\n", 
+      "images": [], 
+      "journal": "testuser1", 
+      "journal-type": "P", 
+      "permalink": "http://testuser1.dreamwidth.org/100.html", 
+      "poster": "testuser1", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [], 
+      "title": "Title 100", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/111/111", 
+        "width": "100"
+      }
+    }, 
+    {
+      "content": "\n\nContent of entry 200 for testuser5.\n", 
+      "images": [], 
+      "journal": "testuser5", 
+      "journal-type": "P", 
+      "permalink": "http://testuser5.dreamwidth.org/2016/06/17/title-200.html", 
+      "poster": "testuser5", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [], 
+      "title": "Title 200", 
+      "userpic": {
+        "height": "86", 
+        "src": "http://v.dreamwidth.org/555/555", 
+        "width": "100"
+      }
+    }, 
+    {
+      "content": "\n\nContent of entry 300 for user testuser1.\n", 
+      "images": [], 
+      "journal": "testuser1", 
+      "journal-type": "P", 
+      "permalink": "http://testuser1.dreamwidth.org/300.html", 
+      "poster": "testuser1", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [], 
+      "title": "Title 300", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/111/111", 
+        "width": "60"
+      }
+    }, 
+    {
+      "content": "Content for entry 400 for community testcomm4, posted by testuser7.", 
+      "images": [], 
+      "journal": "testcomm4", 
+      "journal-type": "C", 
+      "permalink": "http://testcomm4.dreamwidth.org/400.html", 
+      "poster": "testuser7", 
+      "restrictions": "none", 
+      "security": "public", 
+      "tags": [], 
+      "title": "Title 400", 
+      "userpic": {
+        "height": "100", 
+        "src": "http://v.dreamwidth.org/777/777", 
+        "width": "100"
+      }
+    }
+  ], 
+  "type": "timeline"
+}
 ]]></expect>
 </wrangler-test>
 

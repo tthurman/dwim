@@ -97,6 +97,46 @@
 </html>
 ]]></source>
 <expect><![CDATA[
-...
+{
+  "icons": [
+    {
+      "comment": "", 
+      "default": true, 
+      "description": "", 
+      "height": "100", 
+      "keywords": [
+        "party hat"
+      ], 
+      "src": "http://v.dreamwidth.org/54361/470", 
+      "title": "party hat", 
+      "width": "100"
+    }, 
+    {
+      "comment": "by <span class=\"ljuser\" lj:user=\"tajasel\" style=\"white-space: nowrap;\"><a href=\"http://tajasel.dreamwidth.org/profile\"><img alt=\"[personal profile] \" height=\"17\" src=\"http://s.dreamwidth.org/img/silk/identity/user.png\" style=\"vertical-align: text-bottom; border: 0; padding-right: 1px;\" width=\"17\"/></a><a href=\"http://tajasel.dreamwidth.org/\"><b>tajasel</b></a></span>", 
+      "default": false, 
+      "description": "house of bugsy", 
+      "height": "100", 
+      "keywords": [
+        "bugsy"
+      ], 
+      "src": "http://v.dreamwidth.org/144699/470", 
+      "title": "bugsy", 
+      "width": "100"
+    }, 
+    {
+      "comment": "from \"Abortion Eve\", https://rewire.news/article/2016/06/08/c<wbr></wbr>omic-book-abortion-after-roe/", 
+      "default": false, 
+      "description": "sad comic book character saying \"I only did it once\"", 
+      "height": "100", 
+      "keywords": [
+        "only did it once"
+      ], 
+      "src": "http://v.dreamwidth.org/10341949/470", 
+      "title": "only did it once", 
+      "width": "100"
+    }
+  ], 
+  "type": "icons"
+}
 ]]></expect>
 </wrangler-test>
