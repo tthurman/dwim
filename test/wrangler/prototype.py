@@ -122,6 +122,16 @@ def wrangle_icons(iconlist):
 
 	return result
 
+def wrangle_login(login):
+	result = {}
+
+	for inputfield in login.find_all('input'):
+		print inputfield
+		if inputfield['name'] in ('lj_form_auth', 'chal', 'response'):
+		    result[inputfield['name']] = inputfield['value']
+
+	return result
+
 def wrangle(html):
 	"""
 	This is a Python version of the "wrangle" static method
@@ -159,6 +169,11 @@ def wrangle(html):
 	    result['icons'] = wrangle_icons(icons)
 	    return result
 
+	login = soup.find(class_='lj_login_form')
+	if login:
+	    result['type'] = 'login'
+	    result['login'] = wrangle_login(login)
+	    return result
 
 	# XXX type="profile"
 
