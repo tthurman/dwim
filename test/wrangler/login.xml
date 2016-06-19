@@ -1,0 +1,108 @@
+<wrangler-test>
+<source>
+<![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="home" title="Home" href="http://www.dreamwidth.org/" />
+<link rel="contents" title="Site Map" href="http://www.dreamwidth.org/site/" />
+<link rel="help" title="Technical Support" href="http://www.dreamwidth.org/support/" /><style>
+    #Comments q { padding-left: 2.5em; font-style: italic; }
+</style><title>Log in</title>
+
+            <script type="text/javascript">
+                var Site;
+                if (!Site)
+                    Site = {};
+
+                var site_p = {"inbox_update_poll": 1,
+"currentJournal": "",
+"iconprefix": "http://v.dreamwidth.org",
+"currentJournalBase": "",
+"ctx_popup_userhead": 1,
+"media_embed_enabled": 1,
+"has_remote": 0,
+"ctx_popup_icons": 1,
+"user_domain": "dreamwidth.org",
+"siteroot": "http://www.dreamwidth.org",
+"esn_async": 1,
+"statprefix": "http://s.dreamwidth.org/stc",
+"imgprefix": "http://s.dreamwidth.org/img",
+"ctx_popup": 1};
+                var site_k = ["inbox_update_poll", "currentJournal", "iconprefix", "currentJournalBase", "ctx_popup_userhead", "media_embed_enabled", "has_remote", "ctx_popup_icons", "user_domain", "siteroot", "esn_async", "statprefix", "imgprefix", "ctx_popup"];
+                for (var i = 0; site_k.length > i; i++) {
+                    Site[site_k[i]] = site_p[site_k[i]];
+                }
+           </script>
+        <link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??lj_base.css,esn.css,contextualhover.css,jquery/jquery.ui.theme.smoothness.css,lj_base-app.css,base-colors-light.css,lynx/lynx.css?v=1448242038" />
+<link rel="stylesheet" type="text/css" href="http://s.dreamwidth.org/stc/??widgets/login.css?v=1348362434" />
+<script type="text/javascript" src="//s.dreamwidth.org/js/??6alib/core.js,6alib/dom.js,6alib/httpreq.js,livejournal.js,esn.js,6alib/ippu.js,lj_ippu.js,6alib/hourglass.js,contextualhover.js?v=1466295392"></script>
+<script type="text/javascript" src="//s.dreamwidth.org/js/??md5.js,login.js?v=1348362434"></script>
+
+
+
+</head>
+
+<body >
+
+<div role="main" id="content">
+    <div class="row">
+        <div class="columns large-12">
+        <h1>Log in</h1>
+        </div>
+    </div>
+
+
+    <div class="row"><div class="large-12 columns"><table summary='' cellpadding='0' cellspacing='0'><tr><td style='padding-right:20px; vertical-align: top'><div class='columns-2-r300 pkg'>
+<div class='columns-2-left'>
+<div class='appwidget appwidget-login' id='LJWidget_8'>
+<form action='http://www.dreamwidth.org/login' method='post' class='lj_login_form pkg'>
+<input type='hidden' name="lj_form_auth" value="c0:1466344800:2557:86400:TfIBWEWn81-0-N8K2If7CUZztyLH:491c2abe605438c2f5179893f8cba0d0" /><input type='hidden' name='chal' class='lj_login_chal' value='c0:1466344800:2557:300:4HYhnJc2HSRVpVcYxZkF:c02e4d4195950dc819efe724cb2f0859' />
+<input type='hidden' name='response' class='lj_login_response' value='' />
+<h2>Welcome to Dreamwidth!</h2>
+<fieldset class='pkg nostyle'>
+<label for='user' class='left'>Account name:</label>
+<input type='text' value='' name='user' id='user' class='text' size='18' maxlength='27' style='' tabindex='11' />
+</fieldset>
+<fieldset class='pkg nostyle'>
+<label for='lj_loginwidget_password' class='left'>Password:</label>
+<input type='password' id='lj_loginwidget_password' name='password' class='lj_login_password text' size='20' maxlength='30' tabindex='12' /><a href='http://www.dreamwidth.org/lostinfo' class='small-link' tabindex='16'>Forgot your password?</a>
+</fieldset>
+<p><input type='checkbox' name='remember_me' id='remember_me' value='1' tabindex='13' /> <label for='remember_me'>Remember me</label></p><p><input name='action:login' type='submit' value='Log in' tabindex='14' /> <a href='http://www.dreamwidth.org/openid/' class='small-link' tabindex='15'>Log in with OpenID</a></p><p><img src="http://s.dreamwidth.org/img/unpadlocked.gif" width="20" height="16" alt="Secure Login" title="Secure Login" border='0' class="secure-image" /> <a href='https://www.dreamwidth.org/login'>Secure</a> | Standard</p>
+</form>
+</div><!-- end .appwidget-login -->
+<div class='login-create-account'>
+<hr class='hr' />
+<h4>Not a Dreamwidth Studios member?</h4>
+<form action='http://www.dreamwidth.org/create' method='get'><input type='submit' value='Create an Account' class='submit' /></form>
+<ul>
+<li>Read filtered entries that you have access to.</li><li>Leave comments in any journal or community.</li><li>Post entries in your own journal.</li><li>Add any journal or community to your Reading Page.</li><li>Use features that are only visible when you're logged in.</li></ul>
+</div><!-- end .login-create-account -->
+</div><!-- end .columns-2-left -->
+</td></tr></table>    </div></div>
+</div>
+
+<hr />
+<div class="row"><div class="large-12 columns">
+    <div role="navigation"><p>[ <a href='http://www.dreamwidth.org/'>Home</a> | <a href='http://www.dreamwidth.org/update'>Post Entry</a> |
+    <a href='http://www.dreamwidth.org/login'>Log in</a> | 
+    <a href='http://www.dreamwidth.org/tools/search'>Search</a> | 
+    <a href='http://www.dreamwidth.org/manage/settings/'>Browse Options</a> | 
+    <a href='http://www.dreamwidth.org/site/'>Site Map</a> ]</p></div>
+    <div id='statistics' style='text-align: left; font-size:0; line-height:0; height:0; overflow:hidden;'><script type="text/javascript">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</div></div></div>
+</body>
+</html>
+]]></source>
+<expect><![CDATA[
+...
+]]></expect>
+</wrangler-test>
