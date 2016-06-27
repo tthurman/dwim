@@ -8,4 +8,5 @@ gradlew
 gradlew.bat
 *.swp
 *.swo
+src/test/java/WranglerTest.java
 
