@@ -12,3 +12,8 @@ gradlew:
 	gradle wrapper --gradle-version 2.2
 	cp build.gradle.in build.gradle
 
+test:
+	./gradlew test
+	xdg-open build/reports/tests/debug/index.html
+
+
