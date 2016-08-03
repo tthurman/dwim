@@ -1,0 +1,10 @@
+<resources>
+   <string name="label">Dwim</string>
+   <string name="prompt_username">Email</string>
+   <string name="prompt_password">Password</string>
+   <string name="login_progress_signing_in">Signing in...</string>
+   <string name="action_sign_in">Sign in</string>
+   <string name="action_sign_in_short">Sign in</string>
+   <string name="error_field_required">Field required</string>
+</resources>
+
