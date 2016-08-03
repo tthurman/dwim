@@ -17,7 +17,7 @@ gradlew:
 	cp build.gradle.in build.gradle
 
 test: $(WRANGLER_TEST_GENERATED)
-	./gradlew test
+	./gradlew --info test
 
 wrangler.test.rebuild: $(WRANGLER_TEST_GENERATOR) $(WRANGLER_TEST_DATA)
 	python $(WRANGLER_TEST_GENERATOR) $(WRANGLER_TEST_DATA) > $(WRANGLER_TEST_GENERATED)
