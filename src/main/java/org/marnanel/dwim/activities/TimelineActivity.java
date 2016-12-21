@@ -26,8 +26,6 @@ public class TimelineActivity extends Activity {
     super.onCreate(savedInstanceState);
     Log.d(TAG, "Created.");
 
-    DwimApplication.bus().register(this);
-
     _webView = new WebView(this);
     setContentView(_webView);
 
@@ -35,15 +33,6 @@ public class TimelineActivity extends Activity {
 	    "text/plain",
 	    null);
 
-    Log.d(TAG, "Requesting page...");
-    DwimApplication.bus().post(new UserTimelineRequestEvent("marnanel"));
-    Log.d(TAG, "Requested page.");
-  }
-
-  @Override
-  protected void onDestroy() {
-      DwimApplication.bus().unregister(this);
-      super.onDestroy();
   }
 
 }
