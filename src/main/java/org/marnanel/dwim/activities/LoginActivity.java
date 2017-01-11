@@ -53,7 +53,7 @@ public class LoginActivity extends AccountAuthenticatorActivity {
         // Tag to attach to our data inside an Intent.
         public static final String KEY_PASSWORD = "org.marnanel.dwim.password";
 
-        public static final String ACCOUNT_TYPE = "org.marnanel.dwim.account";
+        public static final String ACCOUNT_TYPE = "org.marnanel.dwim";
 
         @Override public void onCreate(Bundle icicle) {
 
@@ -63,32 +63,30 @@ public class LoginActivity extends AccountAuthenticatorActivity {
                 mAccountManager = AccountManager.get(this);
 
                 mUsername = getIntent().getStringExtra(ARG_ACCOUNT_NAME);
+                if (mUsername==null) {
+                        mUsername = "";
+                        mIsCreatingAccount = true;
+                } else {
+                        mIsCreatingAccount = false;
+                }
+
                 mAuthTokenType = getIntent().getStringExtra(ARG_AUTH_TYPE);
 
-                if (mAuthTokenType=="") {
+                if (mAuthTokenType==null || mAuthTokenType=="") {
                         mAuthTokenType = DwimAuthenticator.AUTH_TOKEN_TYPE;
                 }
 
                 mPassword = ""; // they have to retype it each time
-
-                mIsCreatingAccount = (mUsername==null);
 
                 setContentView(R.layout.activity_login);
 
                 // Set up the login form.
                 mUsernameView = (EditText) findViewById(R.id.username);
                 mPasswordView = (EditText) findViewById(R.id.password);
-                mLoginStatusMessageView = (TextView) findViewById(R.id.login_status_message);
 
-                if (!TextUtils.isEmpty(mUsername)) {
-                        mUsernameView.setText(mUsername);
-                }
+                mUsernameView.setText(mUsername);
 
-                findViewById(R.id.sign_in_button).setOnClickListener(new View.OnClickListener() {
-                                @Override public void onClick(View view) {
-                                attemptLogin();
-                                }
-                                });
+                Log.d(TAG, "login form created");
         }
 
         /**
@@ -99,10 +97,12 @@ public class LoginActivity extends AccountAuthenticatorActivity {
          * If everything's OK, then we can kick off
          * the actual business of logging in.
          */
-        public void attemptLogin() {
+        public void attemptLogin(View button) {
 
-                if (mNetworkTask==null) {
-                        // we're already working on it
+                Log.d(TAG, "attemptLogin");
+
+                if (mNetworkTask!=null) {
+                        Log.d(TAG, "abort: already logging in");
                         return;
                 }
 
@@ -115,30 +115,32 @@ public class LoginActivity extends AccountAuthenticatorActivity {
 
                 boolean problem = false;
 
-                if (TextUtils.isEmpty(mPassword)) {
-                        mPasswordView.setError(getString(R.string.error_field_required));
-                        mPasswordView.requestFocus();
-                        problem = true;
-                }
-
                 if (TextUtils.isEmpty(mUsername)) {
                         mUsernameView.setError(getString(R.string.error_field_required));
                         mUsernameView.requestFocus();
                         problem = true;
+                        Log.d(TAG, "abort: username field is empty");
+                }
+
+                if (TextUtils.isEmpty(mPassword)) {
+                        mPasswordView.setError(getString(R.string.error_field_required));
+                        mPasswordView.requestFocus();
+                        problem = true;
+                        Log.d(TAG, "abort: password field is empty");
                 }
 
                 if (problem) {
                         return;
                 }
 
+                Log.d(TAG, "All good. Username is "+mUsername+", password is "+mPassword);
                 // All good. Let's go for it.
 
-                mLoginStatusMessageView.setText(R.string.login_progress_signing_in);
                 Log.d(TAG, "Signing in...");
 
-                mNetworkTask = new AsyncTask<Void, Void, Intent>() {
+                new AsyncTask<Object, Void, Intent>() {
 
-                        @Override protected Intent doInBackground(Void... params) {
+                        @Override protected Intent doInBackground(final Object... params) {
                                 String authToken = "auth"; // FIXME get the auth token, really
 
                 		Log.d(TAG, "Pretending to get the auth token");
@@ -156,7 +158,7 @@ public class LoginActivity extends AccountAuthenticatorActivity {
                                 return result;
                         }
 
-                        @Override protected void onPostExecute(Intent intent) {
+                        @Override protected void onPostExecute(final Intent intent) {
                                 // go back to the parent class,
                                 // and tell them we were successful.
 
@@ -170,11 +172,12 @@ public class LoginActivity extends AccountAuthenticatorActivity {
                                 }
                                 finishLogin(intent);
                         }
-                };
+                }.execute();
 
-                }
+                Log.d(TAG, "End sign-in function (the rest is background)");
+        }
 
-                private void finishLogin(Intent intent) {
+        private void finishLogin(Intent intent) {
 
                         String accountName = intent.getStringExtra(AccountManager.KEY_ACCOUNT_NAME);
                         String accountPassword = intent.getStringExtra(KEY_PASSWORD);
@@ -184,6 +187,8 @@ public class LoginActivity extends AccountAuthenticatorActivity {
 
                         final Account account = new Account(accountName,
                                         intent.getStringExtra(AccountManager.KEY_ACCOUNT_TYPE));
+
+                        Log.d(TAG, "Got an account.");
 
                         if (mIsCreatingAccount) {
 
@@ -203,9 +208,11 @@ public class LoginActivity extends AccountAuthenticatorActivity {
 
                         }
 
+      		        Log.d(TAG, "passing in the result");
                         setAccountAuthenticatorResult(intent.getExtras());
                         setResult(RESULT_OK, intent);
 
+      		        Log.d(TAG, "finishing up");
                         finish();
                 }
 

@@ -64,7 +64,8 @@
                 android:text="@string/action_sign_in"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:layout_gravity="right" />
+                android:layout_gravity="right"
+                android:onClick="attemptLogin" />
 
         </LinearLayout>
 

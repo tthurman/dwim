@@ -157,13 +157,14 @@ public class DwimAuthenticator extends AbstractAccountAuthenticator {
                         String authTokenType, Bundle loginOptions) {
 
                 Log.d(TAG, "updateCredentials");
-                return null;
+                throw new UnsupportedOperationException();
         }
 
         @Override public Bundle editProperties(AccountAuthenticatorResponse response,
                         String accountType) {
 
-                return null;
+                Log.d(TAG, "editProperties");
+                throw new UnsupportedOperationException();
          }
 
 }
