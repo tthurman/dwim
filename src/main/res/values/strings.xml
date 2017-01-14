@@ -10,5 +10,7 @@
    <string name="action_sign_in_short">Sign in</string>
    <string name="error_field_required">Field required</string>
    <string name="login_activity_title">Sign in to Dreamwidth</string>
+   <string name="drawer_open">Drawer open</string>
+   <string name="drawer_close">Drawer close</string>
 </resources>
 
