@@ -1,169 +1,86 @@
 package org.marnanel.dwim;
 
-// Under construction. This used to be Wrangler, a static parser class.
-// It's turning into ScrapedPage, which gets instantiated with some
-// HTML and can parse it as needed.
-
-import java.util.ArrayList;
-import java.util.HashMap;
 import android.util.Log;
-import android.os.Bundle;
+
+import java.net.URL;
+import java.net.URLConnection;
+import java.io.InputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.jsoup.safety.Whitelist;
 
+import org.marnanel.dwim.ScrapingException;
+
 public class ScrapedPage {
 
         public static final String TAG = "ScrapedPage";
 
-        public static final String PAGE_TYPE = "pagetype";
-        public static final String PAGE_TYPE_TIMELINE = "timeline";
-        public static final String PAGE_TYPE_LOGIN = "login";
-        public static final String PAGE_TYPE_UNKNOWN = "unknown";
+        protected Document mDoc;
 
-        protected mDoc;
+        public ScrapedPage(String source) throws ScrapingException {
 
-        public ScrapedPage(String html,
-                String expectedType) {
+                String html;
 
-                Bundle result;
+                Log.d(TAG, "ScrapedPage starting");
+
+                if (source.startsWith("http")) {
+                        Log.d(TAG, "source appears to be a URL:");
+                        Log.d(TAG, source);
+
+                        html = fetchPage(source);
+                } else {
+                        html = source;
+                }
+
+                Log.d(TAG, "ScrapedPage: running parse");
                 mDoc = Jsoup.parse(html, "UTF-8");
+                // XXX what does Jsoup do for mangled input?
+                // we should throw ScrapingException
 
-                // XXX rewrite this, now that we're not using static methods
+                Log.d(TAG, "ScrapedPage: running scrape");
+                scrape();
 
-                // This isn't elegant but I've messed
-                // around with trying to build a list
-                // of inner classes within a static method
-                // for far too long. Why did Java take
-                // so long to get method references?
-
-                result = wrangleTimeline(doc);
-                if (result!=null) { return result; }
-
-                result = wrangleIcons(doc);
-                if (result!=null) { return result; }
-
-                result = wrangleTaglist(doc);
-                if (result!=null) { return result; }
-
-                result = wrangleLogin(doc);
-                if (result!=null) { return result; }
-
-                return wrangleUnknown(doc);
+                Log.d(TAG, "ScrapedPage: init complete");
         }
 
-        protected static Bundle wrangleTimeline(Document doc) {
+        private static String fetchPage(String address)
+                throws ScrapingException {
 
-                Elements sourceEntries = doc.select(".entry-wrapper");
+                Log.d(TAG, "fetchPage, starting, for: "+address);
 
-                if (sourceEntries.isEmpty()) {
+                try {
+                        URLConnection uplink = new URL(address).openConnection();
+                        Log.d(TAG, "connection opened");
 
-                        return null;
+                        InputStream is = uplink.getInputStream();
+                        Log.d(TAG, "got the input stream");
+                        // Concise but hacky way to read
+                        // the entire stream into the string:
+                        Scanner scanner = new Scanner(is).useDelimiter("\\A");
+                        String content = scanner.hasNext() ? scanner.next() : "";
+
+                        Log.d(TAG, "Received.");
+
+                        return content;
+
+                } catch (IOException ioe) {
+
+                        Log.d(TAG, "fetchScrapedPage got an IOException: "+ioe.toString());
+
+                        // XXX consider whether passing the IOE upwards
+                        // is a better plan (or wrapping it)
+
+                        throw new ScrapingException(ioe.toString());
+
                 }
-                ArrayList<Bundle> resultEntries = new ArrayList<Bundle>();
-                
-                for (Element sourceEntry: sourceEntries) {
-
-                        Bundle resultEntry = new Bundle();
-
-                        resultEntry.putString("sec", sourceEntry.className());
-                        for (String sourceEntryClass: sourceEntry.classNames()) {
-                                if (sourceEntryClass.startsWith("has-") ||
-                                    sourceEntryClass.startsWith("entry-")) {
-                                        continue;
-                                }
-                        
-                                int lastHyphen = sourceEntryClass.lastIndexOf('-');
-
-                                if (lastHyphen==-1) {
-                                        continue;
-                                }
-
-                                String field = sourceEntryClass.substring(0,lastHyphen);
-                                String value = sourceEntryClass.substring(lastHyphen+1);
-
-                                resultEntry.putString(field, value);
-                        }
-
-                       Element content = sourceEntry.select(".entry-content").first();
-                        if (content==null) {
-                                resultEntry.putString("content", "");
-                        } else {
-                                Whitelist whitelist = Whitelist.relaxed();
-                                String cleanedHTML =
-                                        Jsoup.clean(content.html(),
-                                                Whitelist.relaxed());
-                                resultEntry.putString("content", cleanedHTML);
-                        }
-
-                        // TODO: images
-                        // Not really our problem atm, but when we handle
-                        // offline access, we'll need to preload.
-
-                        Element title = sourceEntry.select(".entry-title a").first();
-                        if (title==null) {
-                                // XXX tbh an entry without a permalink is
-                                // probably not very useful; maybe we should
-                                // discard it.
-                                resultEntry.putString("title", "");
-                                resultEntry.putString("permalink", "");
-                        } else {
-                                resultEntry.putString("title", title.attr("title"));
-                                resultEntry.putString("permalink", title.attr("href"));
-                        }
-
-
-                        // TODO: tags
-
-                        // TODO: userpic
-
-                        resultEntries.add(resultEntry);
-                }
-
-                Bundle result = new Bundle();
-                result.putString(PAGE_TYPE, PAGE_TYPE_TIMELINE);
-                result.putParcelableArrayList("entries", resultEntries);
-
-                return result;
         }
 
-        protected static Bundle wrangleTaglist(Document doc) {
-                return null;
-        }
-
-        protected static Bundle wrangleIcons(Document doc) {
-                return null;
-        }
-
-        protected static Bundle wrangleLogin(Document doc) {
-                if (doc.select(".lj_login_form").isEmpty()) {
-                        return null;
-                }
-
-                Bundle result = new Bundle();
-
-                for (Element e: doc.select("input")) {
-                        result.putString(
-                                e.attr("name"),
-                                e.attr("value"));
-                }
-
-                // Add system fields last, so the parsed HTML
-                // can't override them.
-                result.putString(PAGE_TYPE, PAGE_TYPE_LOGIN);
-
-                return result;
-        }
-
-        protected static Bundle wrangleUnknown(Document doc) {
-                Bundle result = new Bundle();
-                result.putString(PAGE_TYPE, PAGE_TYPE_UNKNOWN);
-
-                return result;
-        }
-
-        public static Bundle parse(String html) {
+        protected void scrape() throws ScrapingException {
+                // We do nothing in the superclass.
         }
 }

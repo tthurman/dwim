@@ -15,6 +15,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import org.marnanel.dwim.R;
 import org.marnanel.dwim.DwimAuthenticator;
+import org.marnanel.dwim.ScrapedPage;
+import org.marnanel.dwim.ScrapedLoginPage;
+import org.marnanel.dwim.ScrapingException;
 
 /**
  * The login screen.
@@ -140,20 +143,28 @@ public class LoginActivity extends AccountAuthenticatorActivity {
 
                 new AsyncTask<Object, Void, Intent>() {
 
+                        // XXX make this its own method
                         @Override protected Intent doInBackground(final Object... params) {
+
                                 String authToken = "auth"; // FIXME get the auth token, really
+                                final Intent result = new Intent();
 
                 		Log.d(TAG, "Pretending to get the auth token");
 
-                                final Intent result = new Intent();
-                                /*
-                                result.putExtra(AccountManager.KEY_ACCOUNT_NAME, "username");
-                                result.putExtra(AccountManager.KEY_ACCOUNT_TYPE, ACCOUNT_TYPE);
-                                result.putExtra(AccountManager.KEY_AUTHTOKEN, authToken);
-                                result.putExtra(KEY_PASSWORD, mPassword);
-                                */
+                                try {
+                                        ScrapedPage dummy = new ScrapedLoginPage("https://dreamwidth.org/login");
 
-                                result.putExtra(KEY_ERROR_MESSAGE, "oops");
+                                        /*
+                                        result.putExtra(AccountManager.KEY_ACCOUNT_NAME, "username");
+                                        result.putExtra(AccountManager.KEY_ACCOUNT_TYPE, ACCOUNT_TYPE);
+                                        result.putExtra(AccountManager.KEY_AUTHTOKEN, authToken);
+                                        result.putExtra(KEY_PASSWORD, mPassword);
+                                       */
+
+                                        result.putExtra(KEY_ERROR_MESSAGE, "I think it worked");
+                                } catch (ScrapingException se) {
+                                        result.putExtra(KEY_ERROR_MESSAGE, se.toString());
+                                }
 
                                 return result;
                         }
