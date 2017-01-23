@@ -16,12 +16,11 @@ public class ScrapedLoginPage
 
         public static final String TAG = "ScrapedLoginPage";
 
-        public ScrapedLoginPage(String source) throws ScrapingException {
-                super(source);
+        public ScrapedLoginPage() throws ScrapingException {
+                super("/login");
         }
 
         protected void scrape() throws ScrapingException {
-                // We do nothing in the superclass.
                 if (mDoc.select(".lj_login_form").isEmpty()) {
                         throw new ScrapingException("Not a login form");
                 }

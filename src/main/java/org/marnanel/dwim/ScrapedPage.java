@@ -16,36 +16,105 @@ import org.jsoup.safety.Whitelist;
 
 import org.marnanel.dwim.ScrapingException;
 
+/**
+ * An HTML page, along with the information gleaned from it.
+ *
+ * This is the superclass, and does nothing useful with
+ * the HTML it finds. The subclasses parse the HTML
+ * as needed, for a variety of uses.
+*/
 public class ScrapedPage {
 
         public static final String TAG = "ScrapedPage";
 
-        protected Document mDoc;
+        /**
+         * Parsed contents of the page. May be null,
+         * if the page wasn't supplied to (or by) the constructor.
+        */
+        protected Document mDoc = null;
 
+        /**
+         * Constructor. In the superclass this leaves mDoc null;
+         * you will have to use the fetch methods if you want to
+         * populate the object.
+        */
+        public ScrapedPage() throws ScrapingException {
+                // nothing
+        }
+
+        /**
+         * A constructor that can populate mDoc.
+         *
+         * The parameter has a number of uses:
+         *   - If it is an empty string, then mDoc
+         *     is left null, as with the simple constructor.
+         *   - If it begins "http", it is assumed to be
+         *     a URL; the HTML at that address is loaded
+         *     and parsed.
+         *   - If it begins "/", it is assumed to be
+         *     a path on the Dreamwidth website.
+         *     This is very hacky and will be replaced
+         *     before we release. (No, really.)
+         *   - Otherwise, the string is assumed to
+         *     contain HTML. It gets parsed.
+         * 
+         * @fixme talk about error conditions here
+         *
+         * @params  source  The source string; see above.
+         */
         public ScrapedPage(String source) throws ScrapingException {
 
-                String html;
+                Log.d(TAG, "starting");
 
-                Log.d(TAG, "ScrapedPage starting");
+                if (source=="") {
 
-                if (source.startsWith("http")) {
-                        Log.d(TAG, "source appears to be a URL:");
-                        Log.d(TAG, source);
+                        // do nothing, and
+                        // expect them to sort it out
+                        // for themselves later
 
-                        html = fetchPage(source);
-                } else {
-                        html = source;
+                } else if (source.startsWith("http")) {
+                        Log.d(TAG, "source appears to be a URL");
+
+                        parseHtmlFromUrl(source);
+
+                } else if (source.startsWith("/")) {
+                        Log.d(TAG, "source appears to be a path");
+
+                        parseHtmlFromPath(source);
+                 } else {
+                        parseHtml(source);
                 }
+                Log.d(TAG, "init complete");
+        }
 
-                Log.d(TAG, "ScrapedPage: running parse");
+        public void parseHtml(String html)
+                throws ScrapingException {
+                Log.d(TAG, "parsing...");
+
                 mDoc = Jsoup.parse(html, "UTF-8");
                 // XXX what does Jsoup do for mangled input?
                 // we should throw ScrapingException
 
-                Log.d(TAG, "ScrapedPage: running scrape");
+                Log.d(TAG, "parsing done. Running scrape.");
                 scrape();
+        }
 
-                Log.d(TAG, "ScrapedPage: init complete");
+        public void parseHtmlFromUrl(String url)
+                throws ScrapingException {
+                Log.d(TAG, "fetching HTML from "+url);
+                String html = fetchPage(url);
+                parseHtml(html);
+        }
+
+        public void parseHtmlFromPath(String path)
+                throws ScrapingException {
+                Log.d(TAG, "fetching HTML from path "+path);
+                String url = "https://www.dreamwidth.org" +
+                        path +
+                        "?usescheme=lynx";
+
+                String html = fetchPage(url);
+                parseHtml(html);
         }
 
         private static String fetchPage(String address)

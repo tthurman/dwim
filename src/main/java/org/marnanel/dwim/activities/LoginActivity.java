@@ -152,7 +152,7 @@ public class LoginActivity extends AccountAuthenticatorActivity {
                 		Log.d(TAG, "Pretending to get the auth token");
 
                                 try {
-                                        ScrapedPage dummy = new ScrapedLoginPage("https://dreamwidth.org/login");
+                                        ScrapedPage dummy = new ScrapedLoginPage();
 
                                         /*
                                         result.putExtra(AccountManager.KEY_ACCOUNT_NAME, "username");
