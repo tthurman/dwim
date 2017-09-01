@@ -3,10 +3,17 @@ package org.marnanel.dwim;
 import android.util.Log;
 
 import java.net.URL;
-import java.net.URLConnection;
+import java.net.HttpURLConnection;
+import java.net.URLEncoder;
 import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.io.IOException;
+
 import java.util.Scanner;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.HashMap;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -32,6 +39,8 @@ public class ScrapedPage {
          * if the page wasn't supplied to (or by) the constructor.
         */
         protected Document mDoc = null;
+
+        protected Map<String, String> mPostVariables = null;
 
         /**
          * Constructor. In the superclass this leaves mDoc null;
@@ -87,6 +96,22 @@ public class ScrapedPage {
                 Log.d(TAG, "init complete");
         }
 
+        /**
+        * Sets a variable to be used in a subsequent
+        * POST request. After this is called,
+        * http requests will be submitted using POST;
+        * otherwise, they are submitted using GET.
+        */
+        public void setPostParameter(String field,
+                String value) {
+
+                if (mPostVariables==null) {
+                        mPostVariables = new HashMap(mPostVariables);
+                }
+
+                mPostVariables.put(field, value);
+        }
+
         public void parseHtml(String html)
                 throws ScrapingException {
                 Log.d(TAG, "parsing...");
@@ -117,13 +142,43 @@ public class ScrapedPage {
                 parseHtml(html);
         }
 
-        private static String fetchPage(String address)
+        private String fetchPage(String address)
                 throws ScrapingException {
 
                 Log.d(TAG, "fetchPage, starting, for: "+address);
 
                 try {
-                        URLConnection uplink = new URL(address).openConnection();
+                        HttpURLConnection uplink =
+                                (HttpURLConnection) new URL(address).openConnection();
+
+                        if (mPostVariables==null) {
+                                uplink.setRequestMethod("GET");
+                        } else {
+                                uplink.setRequestMethod("POST");
+                                uplink.setDoOutput(true);
+                                uplink.setRequestProperty( "Content-type", "application/x-www-form-urlencoded");
+                                uplink.setRequestProperty( "Accept", "*/*" );
+
+                                StringBuffer requestParams = new StringBuffer();
+                                Iterator<String> i = mPostVariables.keySet().iterator();
+                                while (i.hasNext()) {
+                                        String key = i.next();
+                                        String value = mPostVariables.get(key);
+                                        requestParams.append(key);
+                                        requestParams.append("=");
+                                        requestParams.append(
+                                                        URLEncoder.encode(value, "UTF-8"));
+                                        requestParams.append("&");
+                                }
+
+                                Log.d(TAG, "sending POST parameters: "+requestParams.toString());
+
+                                OutputStreamWriter writer = new OutputStreamWriter(
+                                                uplink.getOutputStream());
+                                writer.write(requestParams.toString());
+                                writer.flush();
+                        }
+
                         Log.d(TAG, "connection opened");
 
                         InputStream is = uplink.getInputStream();

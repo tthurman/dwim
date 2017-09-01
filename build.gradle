@@ -33,6 +33,13 @@ allprojects {
 android {
     compileSdkVersion 25
     buildToolsVersion "22.0.1"
+
+    android {
+            lintOptions {
+                    abortOnError false
+            }
+    }
+
 }
 
 task wrapper(type: Wrapper) {
